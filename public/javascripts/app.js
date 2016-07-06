@@ -3,15 +3,19 @@
 var app = angular.module('myApp', ['ui.bootstrap', 'confirmDialogBoxModule']);
 
 app.controller('loginCtrl', function($scope, $http, $timeout, $uibModal, EmpService) {
-
      $scope.loginAction = function() {
-        alert("entro al funcion")
-     }
-
+        var reqData={"user": $scope.user, "password": $scope.password}
+        $http.post("/autenticar", reqData).success(function (data) {
+             console.log("data  " + JSON.stringify(data));
+        }).catch(function (error) {
+             console.log("error  " +  JSON.stringify(error));
+        });
+     };
 });
 
-app.controller('empCtrl', function($scope, $http, $timeout, $uibModal, EmpService) {
 
+
+app.controller('empCtrl', function($scope, $http, $timeout, $uibModal, EmpService) {
  $scope.employees = [];
 
     function getAllEmployee() {
