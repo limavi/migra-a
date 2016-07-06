@@ -1,0 +1,13 @@
+New log file opened at Wed Jul 06 14:24:24 COT 2016 by 1624@Dito-PC
+Taking next connection to: 54246
+New client attempting to connect on port: 54247-54246
+  Address = /192.168.56.1:54246
+This client on port 54247 has uuid 358616d9-51b2-4072-9030-5796f2be6a41 configName play-fork-run humanReadableName Play Fork Run protocolVersion 1 featureTags Vector()
+Connected Clients: play-fork-run-358616d9-51b2-4072-9030-5796f2be6a41
+Taking next connection to: 54246
+Checking to see if clients are empty...
+No non-daemon clients connected after 3 min. Shutting down.
+Server socket thread exiting.
+0 clients open, will close them...
+All client sockets have been closed.
+Closing the 1624@Dito-PC logs at Wed Jul 06 14:27:24 COT 2016, goodbye.

@@ -1,0 +1,16 @@
+@(webJarAssets: WebJarAssets)
+
+@main("Play Angular App")(webJarAssets) {
+
+    <div ng-controller="loginCtrl">
+        <br><br><br>
+
+        <label class="sr-only" for="inputEmail">Usuario</label>
+        <input type="text" class="form-control" id="inputEmail" placeholder="Usuario" required="" autofocus ng-model="user" capitalize>
+
+        <label class="sr-only" for="inputPassword">Contraseña</label>
+        <input type="password" class="form-control" id="inputPassword" placeholder="Contraseña" required="" ng-model="password">
+
+        <button class="btn btn-lg btn-primary btn-block" type="submit" ng-click="loginAction()">Ingrese</button>
+    </div>
+}
