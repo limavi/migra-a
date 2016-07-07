@@ -1,7 +1,31 @@
-New log file opened at Wed Jul 06 19:26:22 COT 2016 by 2512@Dito-PC
-Taking next connection to: 51052
-New client attempting to connect on port: 51053-51052
-  Address = /192.168.56.1:51052
-This client on port 51053 has uuid 37d9b2e1-e50f-41a1-92e5-9f1cc1a85793 configName play-fork-run humanReadableName Play Fork Run protocolVersion 1 featureTags Vector()
-Connected Clients: play-fork-run-37d9b2e1-e50f-41a1-92e5-9f1cc1a85793
-Taking next connection to: 51052
+New log file opened at Wed Jul 06 19:37:40 COT 2016 by 10216@Dito-PC
+Taking next connection to: 51219
+New client attempting to connect on port: 51220-51219
+  Address = /192.168.56.1:51219
+This client on port 51220 has uuid a6bc5a54-cb77-4964-bc1f-f856442905cf configName play-fork-run humanReadableName Play Fork Run protocolVersion 1 featureTags Vector()
+Connected Clients: play-fork-run-a6bc5a54-cb77-4964-bc1f-f856442905cf
+Taking next connection to: 51219
+New client attempting to connect on port: 51226-51219
+  Address = /192.168.56.1:51219
+Handshake exception on socket: 51226
+sbt.impl.ipc.HandshakeException: Unable to perform handshake
+	at sbt.impl.ipc.Peer.handshake(IPC.scala:46)
+	at sbt.impl.ipc.MultiClientServer.<init>(IPC.scala:150)
+	at sbt.server.SbtServerSocketHandler$$anon$1.run(SbtServerSocketHandler.scala:43)
+Caused by: java.net.SocketException: Software caused connection abort: recv failed
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
+	at java.net.SocketInputStream.read(SocketInputStream.java:170)
+	at java.net.SocketInputStream.read(SocketInputStream.java:141)
+	at java.io.BufferedInputStream.fill(BufferedInputStream.java:246)
+	at java.io.BufferedInputStream.read(BufferedInputStream.java:265)
+	at java.io.DataInputStream.readInt(DataInputStream.java:387)
+	at sbt.impl.ipc.Peer.receive(IPC.scala:95)
+	at sbt.impl.ipc.Peer.handshake(IPC.scala:49)
+	... 2 more
+Taking next connection to: 51219
+New client attempting to connect on port: 51227-51219
+  Address = /192.168.56.1:51219
+This client on port 51227 has uuid 3fcc876a-cf83-4849-a247-3bbf89ace255 configName play-fork-run humanReadableName Play Fork Run protocolVersion 1 featureTags Vector()
+Connected Clients: play-fork-run-a6bc5a54-cb77-4964-bc1f-f856442905cf, play-fork-run-3fcc876a-cf83-4849-a247-3bbf89ace255
+Taking next connection to: 51219

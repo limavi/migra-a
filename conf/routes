@@ -3,9 +3,15 @@
 # ~~~~
 
 # Home page
-GET     /                                   controllers.Application.login
+GET     /                           controllers.Application.login
+GET     /episodios                  controllers.Application.consultarEpisodios(id: Option[ Long ])
+GET     /episodiosPorpaciente       controllers.Application.consultarEpisodiosPorPaciente(TipoDocumento: String, NumeroDocumento: Long)
+GET     /pacientes                  controllers.Application.consultarPacientes(TipoDocumento:Option[ String ], NumeroDocumento: Option[Long ])
 
-POST    /autenticar                        controllers.Application.autenticar
+POST    /agregarEpisodio            controllers.Application.agregarEpisodio
+POST    /sincronizarEpisodios       controllers.Application.sincronizarEpisodios
+POST    /auth/tokens                controllers.Application.autenticar
+POST    /autenticar                 controllers.Application.autenticar
 
 # Map static resources from the /public folder to the /assets URL path
 GET     /assets/*file                       controllers.Assets.versioned(path="/public", file: Asset)

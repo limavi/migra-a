@@ -1,4 +1,4 @@
-New log file opened at Wed Jul 06 19:19:07 COT 2016 by 5928@Dito-PC
+New log file opened at Wed Jul 06 19:34:36 COT 2016 by 2004@Dito-PC
 == resolving dependencies org.webjars#webjars-play_2.11;2.5.0->org.webjars#webjars-locator;0.30 [runtime->runtime(*)]
 == resolving dependencies org.webjars#webjars-play_2.11;2.5.0->org.webjars#webjars-locator;0.30 [runtime->compile]
 == resolving dependencies org.webjars#webjars-locator;0.30->org.webjars#webjars-locator-core;0.30 [runtime->runtime(*)]
@@ -3673,7 +3673,7 @@ sbt-chain: module revision found in cache: net.contentobjects.jnotify#jnotify;0.
 	[NOT REQUIRED] org.scala-sbt#control_2.11;0.13.8-M3!control_2.11.jar
 	[NOT REQUIRED] com.typesafe.akka#akka-actor_2.11;2.3.8!akka-actor_2.11.jar
 	[NOT REQUIRED] com.typesafe.akka#akka-testkit_2.11;2.3.8!akka-testkit_2.11.jar
-:: resolution report :: resolve 2645ms :: artifacts dl 162ms
+:: resolution report :: resolve 3580ms :: artifacts dl 171ms
 	report for activator-play-slick-angularjs#activator-play-slick-angularjs_2.11;1.0 compile produced in C:\Users\Dito\Desktop\taller2 arquitectura\migrana\target\resolution-cache\reports\activator-play-slick-angularjs-activator-play-slick-angularjs_2.11-compile.xml
 	report for activator-play-slick-angularjs#activator-play-slick-angularjs_2.11;1.0 runtime produced in C:\Users\Dito\Desktop\taller2 arquitectura\migrana\target\resolution-cache\reports\activator-play-slick-angularjs-activator-play-slick-angularjs_2.11-runtime.xml
 	report for activator-play-slick-angularjs#activator-play-slick-angularjs_2.11;1.0 test produced in C:\Users\Dito\Desktop\taller2 arquitectura\migrana\target\resolution-cache\reports\activator-play-slick-angularjs-activator-play-slick-angularjs_2.11-test.xml
@@ -3688,47 +3688,46 @@ sbt-chain: module revision found in cache: net.contentobjects.jnotify#jnotify;0.
 	report for activator-play-slick-angularjs#activator-play-slick-angularjs_2.11;1.0 pom produced in C:\Users\Dito\Desktop\taller2 arquitectura\migrana\target\resolution-cache\reports\activator-play-slick-angularjs-activator-play-slick-angularjs_2.11-pom.xml
 	report for activator-play-slick-angularjs#activator-play-slick-angularjs_2.11;1.0 scala-tool produced in C:\Users\Dito\Desktop\taller2 arquitectura\migrana\target\resolution-cache\reports\activator-play-slick-angularjs-activator-play-slick-angularjs_2.11-scala-tool.xml
 	report for activator-play-slick-angularjs#activator-play-slick-angularjs_2.11;1.0 fork-run produced in C:\Users\Dito\Desktop\taller2 arquitectura\migrana\target\resolution-cache\reports\activator-play-slick-angularjs-activator-play-slick-angularjs_2.11-fork-run.xml
-	resolve done (2645ms resolve - 162ms download)
+	resolve done (3580ms resolve - 171ms download)
 Read from stdout: Done updating.
 Done updating.
-Total time: 3 s, completed 06-jul-2016 19:19:08
+Total time: 4 s, completed 06-jul-2016 19:34:38
 > server-post-command-cleanup
 > server-handle-next-server-request
 > root/playForkNotifyStart http://localhost:9005
 Evaluating tasks: *:playForkNotifyStart
-Running task... Cancel: sbt.server.ServerTaskCancellation@2de26a63, check cycles: false
-Total time: 0 s, completed 06-jul-2016 19:19:09
+Running task... Cancel: sbt.server.ServerTaskCancellation@2ac9d17e, check cycles: false
+Total time: 0 s, completed 06-jul-2016 19:34:39
 > server-post-command-cleanup
 > server-handle-next-server-request
 > {file:/C:/Users/Dito/Desktop/taller2%20arquitectura/migrana/}root/*:playForkReload
 Evaluating tasks: *:playForkReload
-Running task... Cancel: sbt.server.ServerTaskCancellation@1cb558e5, check cycles: false
+Running task... Cancel: sbt.server.ServerTaskCancellation@5e3a57c2, check cycles: false
 
 Initial source changes: 
 	removed:Set()
-	added: Set(C:\Users\Dito\Desktop\taller2 arquitectura\migrana\app\migrana\services\migranaServices.scala, C:\Users\Dito\Desktop\taller2 arquitectura\migrana\app\controllers\Application.scala, C:\Users\Dito\Desktop\taller2 arquitectura\migrana\target\scala-2.11\twirl\main\views\html\index.template.scala, C:\Users\Dito\Desktop\taller2 arquitectura\migrana\app\migrana\models\Repository.scala, C:\Users\Dito\Desktop\taller2 arquitectura\migrana\target\scala-2.11\twirl\main\views\html\employee\empList.template.scala, C:\Users\Dito\Desktop\taller2 arquitectura\migrana\app\controllers\EmployeeController.scala, C:\Users\Dito\Desktop\taller2 arquitectura\migrana\app\autenticacion\modelo\Auth.scala, C:\Users\Dito\Desktop\taller2 arquitectura\migrana\target\scala-2.11\twirl\main\views\html\employee\newEmpForm.template.scala, C:\Users\Dito\Desktop\taller2 arquitectura\migrana\app\migrana\models\Episodio.scala, C:\Users\Dito\Desktop\taller2 arquitectura\migrana\target\scala-2.11\routes\main\router\RoutesPrefix.scala, C:\Users\Dito\Desktop\taller2 arquitectura\migrana\target\scala-2.11\twirl\main\views\html\main.template.scala, C:\Users\Dito\Desktop\taller2 arquitectura\migrana\app\utils\Constants.scala, C:\Users\Dito\Desktop\taller2 arquitectura\migrana\target\scala-2.11\twirl\main\views\html\login.template.scala, C:\Users\Dito\Desktop\taller2 arquitectura\migrana\app\migrana\models\Paciente.scala, C:\Users\Dito\Desktop\taller2 arquitectura\migrana\app\autenticacion\servicios\AutServicios.scala, C:\Users\Dito\Desktop\taller2 arquitectura\migrana\target\scala-2.11\routes\main\controllers\ReverseRoutes.scala, C:\Users\Dito\Desktop\taller2 arquitectura\migrana\app\utils\JsonFormat.scala, C:\Users\Dito\Desktop\taller2 arquitectura\migrana\target\scala-2.11\routes\main\controllers\routes.java, C:\Users\Dito\Desktop\taller2 arquitectura\migrana\target\scala-2.11\routes\main\router\Routes.scala, C:\Users\Dito\Desktop\taller2 arquitectura\migrana\target\scala-2.11\routes\main\controllers\javascript\JavaScriptReverseRoutes.scala, C:\Users\Dito\Desktop\taller2 arquitectura\migrana\target\scala-2.11\twirl\main\views\html\employee\editEmpForm.template.scala)
-	modified: Set()
+	added: Set()
+	modified: Set(C:\Users\Dito\Desktop\taller2 arquitectura\migrana\app\controllers\Application.scala, C:\Users\Dito\Desktop\taller2 arquitectura\migrana\target\scala-2.11\routes\main\router\RoutesPrefix.scala, C:\Users\Dito\Desktop\taller2 arquitectura\migrana\target\scala-2.11\routes\main\controllers\ReverseRoutes.scala, C:\Users\Dito\Desktop\taller2 arquitectura\migrana\target\scala-2.11\routes\main\controllers\routes.java, C:\Users\Dito\Desktop\taller2 arquitectura\migrana\target\scala-2.11\routes\main\router\Routes.scala, C:\Users\Dito\Desktop\taller2 arquitectura\migrana\target\scala-2.11\routes\main\controllers\javascript\JavaScriptReverseRoutes.scala)
 Removed products: Set()
 External API changes: API Changes: Set()
 Modified binary dependencies: Set()
-Initial directly invalidated sources: Set(C:\Users\Dito\Desktop\taller2 arquitectura\migrana\app\migrana\services\migranaServices.scala, C:\Users\Dito\Desktop\taller2 arquitectura\migrana\app\controllers\Application.scala, C:\Users\Dito\Desktop\taller2 arquitectura\migrana\target\scala-2.11\twirl\main\views\html\index.template.scala, C:\Users\Dito\Desktop\taller2 arquitectura\migrana\app\migrana\models\Repository.scala, C:\Users\Dito\Desktop\taller2 arquitectura\migrana\target\scala-2.11\twirl\main\views\html\employee\empList.template.scala, C:\Users\Dito\Desktop\taller2 arquitectura\migrana\app\controllers\EmployeeController.scala, C:\Users\Dito\Desktop\taller2 arquitectura\migrana\app\autenticacion\modelo\Auth.scala, C:\Users\Dito\Desktop\taller2 arquitectura\migrana\target\scala-2.11\twirl\main\views\html\employee\newEmpForm.template.scala, C:\Users\Dito\Desktop\taller2 arquitectura\migrana\app\migrana\models\Episodio.scala, C:\Users\Dito\Desktop\taller2 arquitectura\migrana\target\scala-2.11\routes\main\router\RoutesPrefix.scala, C:\Users\Dito\Desktop\taller2 arquitectura\migrana\target\scala-2.11\twirl\main\views\html\main.template.scala, C:\Users\Dito\Desktop\taller2 arquitectura\migrana\app\utils\Constants.scala, C:\Users\Dito\Desktop\taller2 arquitectura\migrana\target\scala-2.11\twirl\main\views\html\login.template.scala, C:\Users\Dito\Desktop\taller2 arquitectura\migrana\app\migrana\models\Paciente.scala, C:\Users\Dito\Desktop\taller2 arquitectura\migrana\app\autenticacion\servicios\AutServicios.scala, C:\Users\Dito\Desktop\taller2 arquitectura\migrana\target\scala-2.11\routes\main\controllers\ReverseRoutes.scala, C:\Users\Dito\Desktop\taller2 arquitectura\migrana\app\utils\JsonFormat.scala, C:\Users\Dito\Desktop\taller2 arquitectura\migrana\target\scala-2.11\routes\main\controllers\routes.java, C:\Users\Dito\Desktop\taller2 arquitectura\migrana\target\scala-2.11\routes\main\router\Routes.scala, C:\Users\Dito\Desktop\taller2 arquitectura\migrana\target\scala-2.11\routes\main\controllers\javascript\JavaScriptReverseRoutes.scala, C:\Users\Dito\Desktop\taller2 arquitectura\migrana\target\scala-2.11\twirl\main\views\html\employee\editEmpForm.template.scala)
+Initial directly invalidated sources: Set(C:\Users\Dito\Desktop\taller2 arquitectura\migrana\app\controllers\Application.scala, C:\Users\Dito\Desktop\taller2 arquitectura\migrana\target\scala-2.11\routes\main\router\RoutesPrefix.scala, C:\Users\Dito\Desktop\taller2 arquitectura\migrana\target\scala-2.11\routes\main\controllers\ReverseRoutes.scala, C:\Users\Dito\Desktop\taller2 arquitectura\migrana\target\scala-2.11\routes\main\controllers\routes.java, C:\Users\Dito\Desktop\taller2 arquitectura\migrana\target\scala-2.11\routes\main\router\Routes.scala, C:\Users\Dito\Desktop\taller2 arquitectura\migrana\target\scala-2.11\routes\main\controllers\javascript\JavaScriptReverseRoutes.scala)
 
 Sources indirectly invalidated by:
 	product: Set()
 	binary dep: Set()
 	external source: Set()
-All initially invalidated sources: Set(C:\Users\Dito\Desktop\taller2 arquitectura\migrana\app\migrana\services\migranaServices.scala, C:\Users\Dito\Desktop\taller2 arquitectura\migrana\app\controllers\Application.scala, C:\Users\Dito\Desktop\taller2 arquitectura\migrana\target\scala-2.11\twirl\main\views\html\index.template.scala, C:\Users\Dito\Desktop\taller2 arquitectura\migrana\app\migrana\models\Repository.scala, C:\Users\Dito\Desktop\taller2 arquitectura\migrana\target\scala-2.11\twirl\main\views\html\employee\empList.template.scala, C:\Users\Dito\Desktop\taller2 arquitectura\migrana\app\controllers\EmployeeController.scala, C:\Users\Dito\Desktop\taller2 arquitectura\migrana\app\autenticacion\modelo\Auth.scala, C:\Users\Dito\Desktop\taller2 arquitectura\migrana\target\scala-2.11\twirl\main\views\html\employee\newEmpForm.template.scala, C:\Users\Dito\Desktop\taller2 arquitectura\migrana\app\migrana\models\Episodio.scala, C:\Users\Dito\Desktop\taller2 arquitectura\migrana\target\scala-2.11\routes\main\router\RoutesPrefix.scala, C:\Users\Dito\Desktop\taller2 arquitectura\migrana\target\scala-2.11\twirl\main\views\html\main.template.scala, C:\Users\Dito\Desktop\taller2 arquitectura\migrana\app\utils\Constants.scala, C:\Users\Dito\Desktop\taller2 arquitectura\migrana\target\scala-2.11\twirl\main\views\html\login.template.scala, C:\Users\Dito\Desktop\taller2 arquitectura\migrana\app\migrana\models\Paciente.scala, C:\Users\Dito\Desktop\taller2 arquitectura\migrana\app\autenticacion\servicios\AutServicios.scala, C:\Users\Dito\Desktop\taller2 arquitectura\migrana\target\scala-2.11\routes\main\controllers\ReverseRoutes.scala, C:\Users\Dito\Desktop\taller2 arquitectura\migrana\app\utils\JsonFormat.scala, C:\Users\Dito\Desktop\taller2 arquitectura\migrana\target\scala-2.11\routes\main\controllers\routes.java, C:\Users\Dito\Desktop\taller2 arquitectura\migrana\target\scala-2.11\routes\main\router\Routes.scala, C:\Users\Dito\Desktop\taller2 arquitectura\migrana\target\scala-2.11\routes\main\controllers\javascript\JavaScriptReverseRoutes.scala, C:\Users\Dito\Desktop\taller2 arquitectura\migrana\target\scala-2.11\twirl\main\views\html\employee\editEmpForm.template.scala)
+All initially invalidated sources: Set(C:\Users\Dito\Desktop\taller2 arquitectura\migrana\app\controllers\Application.scala, C:\Users\Dito\Desktop\taller2 arquitectura\migrana\target\scala-2.11\routes\main\router\RoutesPrefix.scala, C:\Users\Dito\Desktop\taller2 arquitectura\migrana\target\scala-2.11\routes\main\controllers\ReverseRoutes.scala, C:\Users\Dito\Desktop\taller2 arquitectura\migrana\target\scala-2.11\routes\main\controllers\routes.java, C:\Users\Dito\Desktop\taller2 arquitectura\migrana\target\scala-2.11\routes\main\router\Routes.scala, C:\Users\Dito\Desktop\taller2 arquitectura\migrana\target\scala-2.11\routes\main\controllers\javascript\JavaScriptReverseRoutes.scala)
 
-Recompiling all 21 sources: invalidated sources (21) exceeded 50.0% of all sources
-Read from stdout: Compiling 20 Scala sources and 1 Java source to C:\Users\Dito\Desktop\taller2 arquitectura\migrana\target\scala-2.11\classes...
-Compiling 20 Scala sources and 1 Java source to C:\Users\Dito\Desktop\taller2 arquitectura\migrana\target\scala-2.11\classes...
+Read from stdout: Compiling 5 Scala sources and 1 Java source to C:\Users\Dito\Desktop\taller2 arquitectura\migrana\target\scala-2.11\classes...
+Compiling 5 Scala sources and 1 Java source to C:\Users\Dito\Desktop\taller2 arquitectura\migrana\target\scala-2.11\classes...
 Getting compiler-interface from component compiler for Scala 2.11.8
 Other repositories:
 Default repositories:
 Getting compiler-interface from component compiler for Scala 2.11.8
 Other repositories:
 Default repositories:
-Running cached compiler 5f4d176f, interfacing (CompilerInterface) with Scala compiler version 2.11.8
+Running cached compiler 5f803c72, interfacing (CompilerInterface) with Scala compiler version 2.11.8
 Calling Scala compiler with arguments  (CompilerInterface):
 	-deprecation
 	-unchecked
@@ -3738,157 +3737,70 @@ Calling Scala compiler with arguments  (CompilerInterface):
 	C:\Program Files\Java\jdk1.8.0_65\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_65\jre\classes;C:\Users\Dito\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.8.jar
 	-classpath
 	C:\Users\Dito\Desktop\taller2 arquitectura\migrana\target\scala-2.11\classes;C:\Users\Dito\Downloads\typesafe-activator-1.3.10\activator-dist-1.3.10\repository\com.typesafe.play\twirl-api_2.11\1.1.1\jars\twirl-api_2.11.jar;C:\Users\Dito\Downloads\typesafe-activator-1.3.10\activator-dist-1.3.10\repository\org.apache.commons\commons-lang3\3.4\jars\commons-lang3.jar;C:\Users\Dito\.ivy2\cache\org.scala-lang.modules\scala-xml_2.11\bundles\scala-xml_2.11-1.0.1.jar;C:\Users\Dito\.ivy2\cache\com.typesafe.play\play-server_2.11\jars\play-server_2.11-2.5.4.jar;C:\Users\Dito\.ivy2\cache\com.typesafe.play\play_2.11\jars\play_2.11-2.5.4.jar;C:\Users\Dito\.ivy2\cache\com.typesafe.play\build-link\jars\build-link-2.5.4.jar;C:\Users\Dito\.ivy2\cache\com.typesafe.play\play-exceptions\jars\play-exceptions-2.5.4.jar;C:\Users\Dito\.ivy2\cache\com.typesafe.play\play-iteratees_2.11\jars\play-iteratees_2.11-2.5.4.jar;C:\Users\Dito\.ivy2\cache\org.scala-stm\scala-stm_2.11\jars\scala-stm_2.11-0.7.jar;C:\Users\Dito\Downloads\typesafe-activator-1.3.10\activator-dist-1.3.10\repository\com.typesafe\config\1.3.0\bundles\config.jar;C:\Users\Dito\.ivy2\cache\ch.qos.logback\logback-classic\jars\logback-classic-1.1.7.jar;C:\Users\Dito\.ivy2\cache\ch.qos.logback\logback-core\jars\logback-core-1.1.7.jar;C:\Users\Dito\.ivy2\cache\org.slf4j\slf4j-api\jars\slf4j-api-1.7.19.jar;C:\Users\Dito\.ivy2\cache\com.typesafe.play\play-json_2.11\jars\play-json_2.11-2.5.4.jar;C:\Users\Dito\.ivy2\cache\com.typesafe.play\play-functional_2.11\jars\play-functional_2.11-2.5.4.jar;C:\Users\Dito\.ivy2\cache\com.typesafe.play\play-datacommons_2.11\jars\play-datacommons_2.11-2.5.4.jar;C:\Users\Dito\Downloads\typesafe-activator-1.3.10\activator-dist-1.3.10\repository\joda-time\joda-time\2.9.2\jars\joda-time.jar;C:\Users\Dito\Downloads\typesafe-activator-1.3.10\activator-dist-1.3.10\repository\org.joda\joda-convert\1.8.1\jars\joda-convert.jar;C:\Users\Dito\Downloads\typesafe-activator-1.3.10\activator-dist-1.3.10\repository\org.scala-lang\scala-reflect\2.11.7\jars\scala-reflect.jar;C:\Users\Dito\Downloads\typesafe-activator-1.3.10\activator-dist-1.3.10\repository\com.fasterxml.jackson.core\jackson-core\2.7.1\bundles\jackson-core.jar;C:\Users\Dito\Downloads\typesafe-activator-1.3.10\activator-dist-1.3.10\repository\com.fasterxml.jackson.core\jackson-annotations\2.7.1\bundles\jackson-annotations.jar;C:\Users\Dito\Downloads\typesafe-activator-1.3.10\activator-dist-1.3.10\repository\com.fasterxml.jackson.core\jackson-databind\2.7.1\bundles\jackson-databind.jar;C:\Users\Dito\Downloads\typesafe-activator-1.3.10\activator-dist-1.3.10\repository\com.fasterxml.jackson.datatype\jackson-datatype-jdk8\2.7.1\bundles\jackson-datatype-jdk8.jar;C:\Users\Dito\Downloads\typesafe-activator-1.3.10\activator-dist-1.3.10\repository\com.fasterxml.jackson.datatype\jackson-datatype-jsr310\2.7.1\bundles\jackson-datatype-jsr310.jar;C:\Users\Dito\.ivy2\cache\com.typesafe.play\play-netty-utils\jars\play-netty-utils-2.5.4.jar;C:\Users\Dito\.ivy2\cache\org.slf4j\jul-to-slf4j\jars\jul-to-slf4j-1.7.19.jar;C:\Users\Dito\.ivy2\cache\org.slf4j\jcl-over-slf4j\jars\jcl-over-slf4j-1.7.19.jar;C:\Users\Dito\.ivy2\cache\com.typesafe.play\play-streams_2.11\jars\play-streams_2.11-2.5.4.jar;C:\Users\Dito\Downloads\typesafe-activator-1.3.10\activator-dist-1.3.10\repository\org.reactivestreams\reactive-streams\1.0.0\jars\reactive-streams.jar;C:\Users\Dito\.ivy2\cache\com.typesafe.akka\akka-stream_2.11\jars\akka-stream_2.11-2.4.4.jar;C:\Users\Dito\.ivy2\cache\com.typesafe.akka\akka-actor_2.11\jars\akka-actor_2.11-2.4.4.jar;C:\Users\Dito\Downloads\typesafe-activator-1.3.10\activator-dist-1.3.10\repository\org.scala-lang.modules\scala-java8-compat_2.11\0.7.0\bundles\scala-java8-compat_2.11.jar;C:\Users\Dito\.ivy2\cache\com.typesafe\ssl-config-akka_2.11\bundles\ssl-config-akka_2.11-0.2.1.jar;C:\Users\Dito\.ivy2\cache\com.typesafe\ssl-config-core_2.11\bundles\ssl-config-core_2.11-0.2.1.jar;C:\Users\Dito\.ivy2\cache\org.scala-lang.modules\scala-parser-combinators_2.11\bundles\scala-parser-combinators_2.11-1.0.4.jar;C:\Users\Dito\.ivy2\cache\com.typesafe.akka\akka-slf4j_2.11\jars\akka-slf4j_2.11-2.4.4.jar;C:\Users\Dito\Downloads\typesafe-activator-1.3.10\activator-dist-1.3.10\repository\commons-codec\commons-codec\1.10\jars\commons-codec.jar;C:\Users\Dito\.ivy2\cache\xerces\xercesImpl\jars\xercesImpl-2.11.0.jar;C:\Users\Dito\.ivy2\cache\xml-apis\xml-apis\jars\xml-apis-1.4.01.jar;C:\Users\Dito\.ivy2\cache\javax.transaction\jta\jars\jta-1.1.jar;C:\Users\Dito\Downloads\typesafe-activator-1.3.10\activator-dist-1.3.10\repository\com.google.inject\guice\4.0\jars\guice.jar;C:\Users\Dito\Downloads\typesafe-activator-1.3.10\activator-dist-1.3.10\repository\javax.inject\javax.inject\1\jars\javax.inject.jar;C:\Users\Dito\Downloads\typesafe-activator-1.3.10\activator-dist-1.3.10\repository\aopalliance\aopalliance\1.0\jars\aopalliance.jar;C:\Users\Dito\.ivy2\cache\com.google.guava\guava\bundles\guava-16.0.1.jar;C:\Users\Dito\Downloads\typesafe-activator-1.3.10\activator-dist-1.3.10\repository\com.google.inject.extensions\guice-assistedinject\4.0\jars\guice-assistedinject.jar;C:\Users\Dito\.ivy2\cache\com.typesafe.play\play-netty-server_2.11\jars\play-netty-server_2.11-2.5.4.jar;C:\Users\Dito\.ivy2\cache\com.typesafe.netty\netty-reactive-streams-http\jars\netty-reactive-streams-http-1.0.6.jar;C:\Users\Dito\.ivy2\cache\com.typesafe.netty\netty-reactive-streams\jars\netty-reactive-streams-1.0.6.jar;C:\Users\Dito\Downloads\typesafe-activator-1.3.10\activator-dist-1.3.10\repository\io.netty\netty-handler\4.0.36.Final\jars\netty-handler.jar;C:\Users\Dito\Downloads\typesafe-activator-1.3.10\activator-dist-1.3.10\repository\io.netty\netty-buffer\4.0.36.Final\jars\netty-buffer.jar;C:\Users\Dito\Downloads\typesafe-activator-1.3.10\activator-dist-1.3.10\repository\io.netty\netty-common\4.0.36.Final\jars\netty-common.jar;C:\Users\Dito\Downloads\typesafe-activator-1.3.10\activator-dist-1.3.10\repository\io.netty\netty-transport\4.0.36.Final\jars\netty-transport.jar;C:\Users\Dito\Downloads\typesafe-activator-1.3.10\activator-dist-1.3.10\repository\io.netty\netty-codec\4.0.36.Final\jars\netty-codec.jar;C:\Users\Dito\Downloads\typesafe-activator-1.3.10\activator-dist-1.3.10\repository\io.netty\netty-codec-http\4.0.36.Final\jars\netty-codec-http.jar;C:\Users\Dito\Downloads\typesafe-activator-1.3.10\activator-dist-1.3.10\repository\io.netty\netty-transport-native-epoll\4.0.36.Final\jars\netty-transport-native-epoll-linux-x86_64.jar;C:\Users\Dito\.ivy2\cache\com.typesafe.play\play-logback_2.11\jars\play-logback_2.11-2.5.4.jar;C:\Users\Dito\.ivy2\cache\mysql\mysql-connector-java\jars\mysql-connector-java-5.1.34.jar;C:\Users\Dito\.ivy2\cache\com.typesafe.play\play-slick_2.11\jars\play-slick_2.11-1.1.0.jar;C:\Users\Dito\.ivy2\cache\com.typesafe.slick\slick_2.11\bundles\slick_2.11-3.1.0.jar;C:\Users\Dito\.ivy2\cache\com.typesafe.slick\slick-hikaricp_2.11\bundles\slick-hikaricp_2.11-3.1.0.jar;C:\Users\Dito\.ivy2\cache\com.zaxxer\HikariCP-java6\bundles\HikariCP-java6-2.3.7.jar;C:\Users\Dito\Downloads\typesafe-activator-1.3.10\activator-dist-1.3.10\repository\org.javassist\javassist\3.19.0-GA\bundles\javassist.jar;C:\Users\Dito\.ivy2\cache\com.typesafe.play\play-jdbc-api_2.11\jars\play-jdbc-api_2.11-2.4.0.jar;C:\Users\Dito\.ivy2\cache\com.typesafe.play\play-slick-evolutions_2.11\jars\play-slick-evolutions_2.11-1.1.0.jar;C:\Users\Dito\.ivy2\cache\com.typesafe.play\play-jdbc-evolutions_2.11\jars\play-jdbc-evolutions_2.11-2.4.0.jar;C:\Users\Dito\.ivy2\cache\org.webjars\webjars-play_2.11\jars\webjars-play_2.11-2.5.0.jar;C:\Users\Dito\.ivy2\cache\org.webjars\requirejs\jars\requirejs-2.1.20.jar;C:\Users\Dito\.ivy2\cache\org.webjars\webjars-locator\jars\webjars-locator-0.30.jar;C:\Users\Dito\.ivy2\cache\org.webjars\webjars-locator-core\jars\webjars-locator-core-0.30.jar;C:\Users\Dito\Downloads\typesafe-activator-1.3.10\activator-dist-1.3.10\repository\org.apache.commons\commons-compress\1.9\jars\commons-compress.jar;C:\Users\Dito\.ivy2\cache\org.webjars\jquery\jars\jquery-1.11.3.jar;C:\Users\Dito\.ivy2\cache\org.webjars\bootstrap\jars\bootstrap-3.3.6.jar;C:\Users\Dito\.ivy2\cache\org.webjars\angularjs\jars\angularjs-1.5.5.jar;C:\Users\Dito\.ivy2\cache\org.webjars\angular-ui-bootstrap\jars\angular-ui-bootstrap-1.3.2.jar;C:\Users\Dito\.ivy2\cache\com.nimbusds\nimbus-jose-jwt\jars\nimbus-jose-jwt-3.1.jar;C:\Users\Dito\.ivy2\cache\net.jcip\jcip-annotations\jars\jcip-annotations-1.0.jar;C:\Users\Dito\.ivy2\cache\net.minidev\json-smart\jars\json-smart-1.1.1.jar;C:\Users\Dito\Downloads\typesafe-activator-1.3.10\activator-dist-1.3.10\repository\org.bouncycastle\bcprov-jdk15on\1.51\jars\bcprov-jdk15on.jar
-Read from stdout: C:\Users\Dito\Desktop\taller2 arquitectura\migrana\app\controllers\EmployeeController.scala:4: object Employee is not a member of package models
-C:\Users\Dito\Desktop\taller2 arquitectura\migrana\app\controllers\EmployeeController.scala:4: object Employee is not a member of package models
-Read from stdout: import models.Employee
-import models.Employee
+Read from stdout: C:\Users\Dito\Desktop\taller2 arquitectura\migrana\app\controllers\Application.scala:37: No Json serializer found for type Seq[migrana.modelo.Episodio]. Try to implement an implicit Writes or Format for this type.
+C:\Users\Dito\Desktop\taller2 arquitectura\migrana\app\controllers\Application.scala:37: No Json serializer found for type Seq[migrana.modelo.Episodio]. Try to implement an implicit Writes or Format for this type.
+Read from stdout: Ok( Json.toJson( episodio ) )
+      Ok( Json.toJson( episodio ) )
 Read from stdout: ^
-       ^
-Read from stdout: C:\Users\Dito\Desktop\taller2 arquitectura\migrana\app\controllers\EmployeeController.scala:10: not found: object repo
-C:\Users\Dito\Desktop\taller2 arquitectura\migrana\app\controllers\EmployeeController.scala:10: not found: object repo
-Read from stdout: import repo.EmployeeRepository
-import repo.EmployeeRepository
+                     ^
+Read from stdout: C:\Users\Dito\Desktop\taller2 arquitectura\migrana\app\controllers\Application.scala:43: No Json serializer found for type Seq[migrana.modelo.Episodio]. Try to implement an implicit Writes or Format for this type.
+C:\Users\Dito\Desktop\taller2 arquitectura\migrana\app\controllers\Application.scala:43: No Json serializer found for type Seq[migrana.modelo.Episodio]. Try to implement an implicit Writes or Format for this type.
+Read from stdout: Ok( Json.toJson( episodiosPorPaciente ) )
+      Ok( Json.toJson( episodiosPorPaciente ) )
 Read from stdout: ^
-       ^
-Read from stdout: C:\Users\Dito\Desktop\taller2 arquitectura\migrana\app\controllers\EmployeeController.scala:19: not found: type EmployeeRepository
-C:\Users\Dito\Desktop\taller2 arquitectura\migrana\app\controllers\EmployeeController.scala:19: not found: type EmployeeRepository
-Read from stdout: class EmployeeController @Inject()(empRepository: EmployeeRepository) extends Controller {
-class EmployeeController @Inject()(empRepository: EmployeeRepository) extends Controller {
+                     ^
+Read from stdout: C:\Users\Dito\Desktop\taller2 arquitectura\migrana\app\controllers\Application.scala:49: No Json serializer found for type Seq[migrana.modelo.Paciente]. Try to implement an implicit Writes or Format for this type.
+C:\Users\Dito\Desktop\taller2 arquitectura\migrana\app\controllers\Application.scala:49: No Json serializer found for type Seq[migrana.modelo.Paciente]. Try to implement an implicit Writes or Format for this type.
+Read from stdout: Ok( Json.toJson( pacientes ) )
+      Ok( Json.toJson( pacientes ) )
 Read from stdout: ^
-                                                  ^
-Read from stdout: C:\Users\Dito\Desktop\taller2 arquitectura\migrana\app\utils\JsonFormat.scala:8: not found: type Employee
-C:\Users\Dito\Desktop\taller2 arquitectura\migrana\app\utils\JsonFormat.scala:8: not found: type Employee
-Read from stdout: implicit val employeeFormat = Json.format[Employee]
-  implicit val employeeFormat = Json.format[Employee]
+                     ^
+Read from stdout: C:\Users\Dito\Desktop\taller2 arquitectura\migrana\app\controllers\Application.scala:55: No Json deserializer found for type migrana.modelo.Episodio. Try to implement an implicit Reads or Format for this type.
+C:\Users\Dito\Desktop\taller2 arquitectura\migrana\app\controllers\Application.scala:55: No Json deserializer found for type migrana.modelo.Episodio. Try to implement an implicit Reads or Format for this type.
+Read from stdout: json.validate[Episodio].map{
+      json.validate[Episodio].map{
 Read from stdout: ^
-                                            ^
-Read from stdout: C:\Users\Dito\Desktop\taller2 arquitectura\migrana\app\controllers\EmployeeController.scala:44: not found: type Employee
-C:\Users\Dito\Desktop\taller2 arquitectura\migrana\app\controllers\EmployeeController.scala:44: not found: type Employee
-Read from stdout: request.body.validate[Employee].fold(error => Future.successful(BadRequest(JsError.toJson(error))), { emp =>
-    request.body.validate[Employee].fold(error => Future.successful(BadRequest(JsError.toJson(error))), { emp =>
+                   ^
+Read from stdout: C:\Users\Dito\Desktop\taller2 arquitectura\migrana\app\controllers\Application.scala:72: No Json deserializer found for type List[migrana.modelo.Episodio]. Try to implement an implicit Reads or Format for this type.
+C:\Users\Dito\Desktop\taller2 arquitectura\migrana\app\controllers\Application.scala:72: No Json deserializer found for type List[migrana.modelo.Episodio]. Try to implement an implicit Reads or Format for this type.
+Read from stdout: json.validate[List[Episodio]].map {
+      json.validate[List[Episodio]].map {
 Read from stdout: ^
-                          ^
-Read from stdout: C:\Users\Dito\Desktop\taller2 arquitectura\migrana\app\controllers\EmployeeController.scala:75: not found: type Employee
-C:\Users\Dito\Desktop\taller2 arquitectura\migrana\app\controllers\EmployeeController.scala:75: not found: type Employee
-Read from stdout: request.body.validate[Employee].fold(error => Future.successful(BadRequest(JsError.toJson(error))), { emp =>
-    request.body.validate[Employee].fold(error => Future.successful(BadRequest(JsError.toJson(error))), { emp =>
-Read from stdout: ^
-                          ^
-Read from stdout: C:\Users\Dito\Desktop\taller2 arquitectura\migrana\app\migrana\models\Repository.scala:18: not found: type PacienteTable
-C:\Users\Dito\Desktop\taller2 arquitectura\migrana\app\migrana\models\Repository.scala:18: not found: type PacienteTable
-Read from stdout: val pacienteQuery = TableQuery[PacienteTable]
-  val pacienteQuery = TableQuery[PacienteTable]
-Read from stdout: ^
-                                 ^
-Read from stdout: C:\Users\Dito\Desktop\taller2 arquitectura\migrana\app\migrana\models\Repository.scala:53: not found: type Paciente
-C:\Users\Dito\Desktop\taller2 arquitectura\migrana\app\migrana\models\Repository.scala:53: not found: type Paciente
-Read from stdout: def getPacientes(TipoDocumento:Option[ String ],  NumeroDocumento: Option[Long ] ): Future[Seq[Paciente]] = {
-  def getPacientes(TipoDocumento:Option[ String ],  NumeroDocumento: Option[Long ] ): Future[Seq[Paciente]] = {
-Read from stdout: ^
-                                                                                                 ^
-Read from stdout: C:\Users\Dito\Desktop\taller2 arquitectura\migrana\app\migrana\services\migranaServices.scala:9: not found: type Episodio
-C:\Users\Dito\Desktop\taller2 arquitectura\migrana\app\migrana\services\migranaServices.scala:9: not found: type Episodio
-Read from stdout: def addEpisodio(epiCompleto: Episodio): Future[String] = {
-  def addEpisodio(epiCompleto: Episodio): Future[String] = {
-Read from stdout: ^
-                               ^
-Read from stdout: C:\Users\Dito\Desktop\taller2 arquitectura\migrana\app\migrana\services\migranaServices.scala:10: not found: value Repository
-C:\Users\Dito\Desktop\taller2 arquitectura\migrana\app\migrana\services\migranaServices.scala:10: not found: value Repository
-Read from stdout: Repository.addEpisodio(epiCompleto)
-    Repository.addEpisodio(epiCompleto)
-Read from stdout: ^
-    ^
-Read from stdout: C:\Users\Dito\Desktop\taller2 arquitectura\migrana\app\migrana\services\migranaServices.scala:13: not found: type Episodio
-C:\Users\Dito\Desktop\taller2 arquitectura\migrana\app\migrana\services\migranaServices.scala:13: not found: type Episodio
-Read from stdout: def addListEpisodios(epiCompleto: List[ Episodio]): Future[String] = {
-  def addListEpisodios(epiCompleto: List[ Episodio]): Future[String] = {
-Read from stdout: ^
-                                          ^
-Read from stdout: C:\Users\Dito\Desktop\taller2 arquitectura\migrana\app\migrana\services\migranaServices.scala:14: not found: value Repository
-C:\Users\Dito\Desktop\taller2 arquitectura\migrana\app\migrana\services\migranaServices.scala:14: not found: value Repository
-Read from stdout: Repository.addListEpisodios(epiCompleto)
-    Repository.addListEpisodios(epiCompleto)
-Read from stdout: ^
-    ^
-Read from stdout: C:\Users\Dito\Desktop\taller2 arquitectura\migrana\app\migrana\services\migranaServices.scala:17: not found: type Episodio
-C:\Users\Dito\Desktop\taller2 arquitectura\migrana\app\migrana\services\migranaServices.scala:17: not found: type Episodio
-Read from stdout: def getEpisodios(id: Option[ Long ]): Future[Seq[Episodio]] = {
-  def getEpisodios(id: Option[ Long ]): Future[Seq[Episodio]] = {
-Read from stdout: ^
-                                                   ^
-Read from stdout: C:\Users\Dito\Desktop\taller2 arquitectura\migrana\app\migrana\services\migranaServices.scala:18: not found: value Repository
-C:\Users\Dito\Desktop\taller2 arquitectura\migrana\app\migrana\services\migranaServices.scala:18: not found: value Repository
-Read from stdout: Repository.getEpisodios(id)
-    Repository.getEpisodios(id)
-Read from stdout: ^
-    ^
-Read from stdout: C:\Users\Dito\Desktop\taller2 arquitectura\migrana\app\migrana\services\migranaServices.scala:23: not found: value Repository
-C:\Users\Dito\Desktop\taller2 arquitectura\migrana\app\migrana\services\migranaServices.scala:23: not found: value Repository
-Read from stdout: Repository.getEpisodiosPorPaciente(TipoDocumento,NumeroDocumento)
-    Repository.getEpisodiosPorPaciente(TipoDocumento,NumeroDocumento)
-Read from stdout: ^
-    ^
-Read from stdout: C:\Users\Dito\Desktop\taller2 arquitectura\migrana\app\migrana\services\migranaServices.scala:27: not found: value Repository
-C:\Users\Dito\Desktop\taller2 arquitectura\migrana\app\migrana\services\migranaServices.scala:27: not found: value Repository
-Read from stdout: Repository.getPacientes(TipoDocumento, NumeroDocumento)
-    Repository.getPacientes(TipoDocumento, NumeroDocumento)
-Read from stdout: ^
-    ^
-Read from stdout: C:\Users\Dito\Desktop\taller2 arquitectura\migrana\app\migrana\services\migranaServices.scala:32: not found: value Repository
-C:\Users\Dito\Desktop\taller2 arquitectura\migrana\app\migrana\services\migranaServices.scala:32: not found: value Repository
-Read from stdout: Repository.getTotalEpisodosPorPaciente(idPaciente).map(total=> {
-    Repository.getTotalEpisodosPorPaciente(idPaciente).map(total=> {
-Read from stdout: ^
-    ^
-Read from stdout: C:\Users\Dito\Desktop\taller2 arquitectura\migrana\app\views\index.scala.html:29: Adaptation of argument list by inserting () has been deprecated: leaky (Object-receiving) target makes this especially dangerous.
-Read from stdout: signature: editEmpForm.apply(param: Any): play.twirl.api.HtmlFormat.Appendable
-Read from stdout: given arguments: <none>
-Read from stdout: after adaptation: editEmpForm((): Unit)
-C:\Users\Dito\Desktop\taller2 arquitectura\migrana\app\views\index.scala.html:29: Adaptation of argument list by inserting () has been deprecated: leaky (Object-receiving) target makes this especially dangerous.
-        signature: editEmpForm.apply(param: Any): play.twirl.api.HtmlFormat.Appendable
-  given arguments: <none>
- after adaptation: editEmpForm((): Unit)
-Read from stdout: @views.html.employee.editEmpForm()
-    @views.html.employee.editEmpForm()
-Read from stdout: ^
-                                    ^
-Read from stdout: one warning found
-one warning found
-Read from stdout: 17 errors found
-17 errors found
+                   ^
+Read from stdout: 5 errors found
+5 errors found
 Compilation failed (CompilerInterface)
-Total time: 6 s, completed 06-jul-2016 19:19:21
+Total time: 4 s, completed 06-jul-2016 19:34:46
 > server-post-command-cleanup
 > server-handle-next-server-request
 > {file:/C:/Users/Dito/Desktop/taller2%20arquitectura/migrana/}root/*:playForkReload
 Evaluating tasks: *:playForkReload
-Running task... Cancel: sbt.server.ServerTaskCancellation@5b21dee2, check cycles: false
+Running task... Cancel: sbt.server.ServerTaskCancellation@46148c35, check cycles: false
 
 Initial source changes: 
 	removed:Set()
-	added: Set(C:\Users\Dito\Desktop\taller2 arquitectura\migrana\app\migrana\services\migranaServices.scala, C:\Users\Dito\Desktop\taller2 arquitectura\migrana\app\controllers\Application.scala, C:\Users\Dito\Desktop\taller2 arquitectura\migrana\target\scala-2.11\twirl\main\views\html\index.template.scala, C:\Users\Dito\Desktop\taller2 arquitectura\migrana\app\migrana\models\Repository.scala, C:\Users\Dito\Desktop\taller2 arquitectura\migrana\target\scala-2.11\twirl\main\views\html\employee\empList.template.scala, C:\Users\Dito\Desktop\taller2 arquitectura\migrana\app\controllers\EmployeeController.scala, C:\Users\Dito\Desktop\taller2 arquitectura\migrana\app\autenticacion\modelo\Auth.scala, C:\Users\Dito\Desktop\taller2 arquitectura\migrana\target\scala-2.11\twirl\main\views\html\employee\newEmpForm.template.scala, C:\Users\Dito\Desktop\taller2 arquitectura\migrana\app\migrana\models\Episodio.scala, C:\Users\Dito\Desktop\taller2 arquitectura\migrana\target\scala-2.11\routes\main\router\RoutesPrefix.scala, C:\Users\Dito\Desktop\taller2 arquitectura\migrana\target\scala-2.11\twirl\main\views\html\main.template.scala, C:\Users\Dito\Desktop\taller2 arquitectura\migrana\app\utils\Constants.scala, C:\Users\Dito\Desktop\taller2 arquitectura\migrana\target\scala-2.11\twirl\main\views\html\login.template.scala, C:\Users\Dito\Desktop\taller2 arquitectura\migrana\app\migrana\models\Paciente.scala, C:\Users\Dito\Desktop\taller2 arquitectura\migrana\app\autenticacion\servicios\AutServicios.scala, C:\Users\Dito\Desktop\taller2 arquitectura\migrana\target\scala-2.11\routes\main\controllers\ReverseRoutes.scala, C:\Users\Dito\Desktop\taller2 arquitectura\migrana\app\utils\JsonFormat.scala, C:\Users\Dito\Desktop\taller2 arquitectura\migrana\target\scala-2.11\routes\main\controllers\routes.java, C:\Users\Dito\Desktop\taller2 arquitectura\migrana\target\scala-2.11\routes\main\router\Routes.scala, C:\Users\Dito\Desktop\taller2 arquitectura\migrana\target\scala-2.11\routes\main\controllers\javascript\JavaScriptReverseRoutes.scala, C:\Users\Dito\Desktop\taller2 arquitectura\migrana\target\scala-2.11\twirl\main\views\html\employee\editEmpForm.template.scala)
-	modified: Set()
+	added: Set()
+	modified: Set(C:\Users\Dito\Desktop\taller2 arquitectura\migrana\app\controllers\Application.scala, C:\Users\Dito\Desktop\taller2 arquitectura\migrana\target\scala-2.11\routes\main\router\RoutesPrefix.scala, C:\Users\Dito\Desktop\taller2 arquitectura\migrana\target\scala-2.11\routes\main\controllers\ReverseRoutes.scala, C:\Users\Dito\Desktop\taller2 arquitectura\migrana\target\scala-2.11\routes\main\controllers\routes.java, C:\Users\Dito\Desktop\taller2 arquitectura\migrana\target\scala-2.11\routes\main\router\Routes.scala, C:\Users\Dito\Desktop\taller2 arquitectura\migrana\target\scala-2.11\routes\main\controllers\javascript\JavaScriptReverseRoutes.scala)
 Removed products: Set()
 External API changes: API Changes: Set()
 Modified binary dependencies: Set()
-Initial directly invalidated sources: Set(C:\Users\Dito\Desktop\taller2 arquitectura\migrana\app\migrana\services\migranaServices.scala, C:\Users\Dito\Desktop\taller2 arquitectura\migrana\app\controllers\Application.scala, C:\Users\Dito\Desktop\taller2 arquitectura\migrana\target\scala-2.11\twirl\main\views\html\index.template.scala, C:\Users\Dito\Desktop\taller2 arquitectura\migrana\app\migrana\models\Repository.scala, C:\Users\Dito\Desktop\taller2 arquitectura\migrana\target\scala-2.11\twirl\main\views\html\employee\empList.template.scala, C:\Users\Dito\Desktop\taller2 arquitectura\migrana\app\controllers\EmployeeController.scala, C:\Users\Dito\Desktop\taller2 arquitectura\migrana\app\autenticacion\modelo\Auth.scala, C:\Users\Dito\Desktop\taller2 arquitectura\migrana\target\scala-2.11\twirl\main\views\html\employee\newEmpForm.template.scala, C:\Users\Dito\Desktop\taller2 arquitectura\migrana\app\migrana\models\Episodio.scala, C:\Users\Dito\Desktop\taller2 arquitectura\migrana\target\scala-2.11\routes\main\router\RoutesPrefix.scala, C:\Users\Dito\Desktop\taller2 arquitectura\migrana\target\scala-2.11\twirl\main\views\html\main.template.scala, C:\Users\Dito\Desktop\taller2 arquitectura\migrana\app\utils\Constants.scala, C:\Users\Dito\Desktop\taller2 arquitectura\migrana\target\scala-2.11\twirl\main\views\html\login.template.scala, C:\Users\Dito\Desktop\taller2 arquitectura\migrana\app\migrana\models\Paciente.scala, C:\Users\Dito\Desktop\taller2 arquitectura\migrana\app\autenticacion\servicios\AutServicios.scala, C:\Users\Dito\Desktop\taller2 arquitectura\migrana\target\scala-2.11\routes\main\controllers\ReverseRoutes.scala, C:\Users\Dito\Desktop\taller2 arquitectura\migrana\app\utils\JsonFormat.scala, C:\Users\Dito\Desktop\taller2 arquitectura\migrana\target\scala-2.11\routes\main\controllers\routes.java, C:\Users\Dito\Desktop\taller2 arquitectura\migrana\target\scala-2.11\routes\main\router\Routes.scala, C:\Users\Dito\Desktop\taller2 arquitectura\migrana\target\scala-2.11\routes\main\controllers\javascript\JavaScriptReverseRoutes.scala, C:\Users\Dito\Desktop\taller2 arquitectura\migrana\target\scala-2.11\twirl\main\views\html\employee\editEmpForm.template.scala)
+Initial directly invalidated sources: Set(C:\Users\Dito\Desktop\taller2 arquitectura\migrana\app\controllers\Application.scala, C:\Users\Dito\Desktop\taller2 arquitectura\migrana\target\scala-2.11\routes\main\router\RoutesPrefix.scala, C:\Users\Dito\Desktop\taller2 arquitectura\migrana\target\scala-2.11\routes\main\controllers\ReverseRoutes.scala, C:\Users\Dito\Desktop\taller2 arquitectura\migrana\target\scala-2.11\routes\main\controllers\routes.java, C:\Users\Dito\Desktop\taller2 arquitectura\migrana\target\scala-2.11\routes\main\router\Routes.scala, C:\Users\Dito\Desktop\taller2 arquitectura\migrana\target\scala-2.11\routes\main\controllers\javascript\JavaScriptReverseRoutes.scala)
 
 Sources indirectly invalidated by:
 	product: Set()
 	binary dep: Set()
 	external source: Set()
-All initially invalidated sources: Set(C:\Users\Dito\Desktop\taller2 arquitectura\migrana\app\migrana\services\migranaServices.scala, C:\Users\Dito\Desktop\taller2 arquitectura\migrana\app\controllers\Application.scala, C:\Users\Dito\Desktop\taller2 arquitectura\migrana\target\scala-2.11\twirl\main\views\html\index.template.scala, C:\Users\Dito\Desktop\taller2 arquitectura\migrana\app\migrana\models\Repository.scala, C:\Users\Dito\Desktop\taller2 arquitectura\migrana\target\scala-2.11\twirl\main\views\html\employee\empList.template.scala, C:\Users\Dito\Desktop\taller2 arquitectura\migrana\app\controllers\EmployeeController.scala, C:\Users\Dito\Desktop\taller2 arquitectura\migrana\app\autenticacion\modelo\Auth.scala, C:\Users\Dito\Desktop\taller2 arquitectura\migrana\target\scala-2.11\twirl\main\views\html\employee\newEmpForm.template.scala, C:\Users\Dito\Desktop\taller2 arquitectura\migrana\app\migrana\models\Episodio.scala, C:\Users\Dito\Desktop\taller2 arquitectura\migrana\target\scala-2.11\routes\main\router\RoutesPrefix.scala, C:\Users\Dito\Desktop\taller2 arquitectura\migrana\target\scala-2.11\twirl\main\views\html\main.template.scala, C:\Users\Dito\Desktop\taller2 arquitectura\migrana\app\utils\Constants.scala, C:\Users\Dito\Desktop\taller2 arquitectura\migrana\target\scala-2.11\twirl\main\views\html\login.template.scala, C:\Users\Dito\Desktop\taller2 arquitectura\migrana\app\migrana\models\Paciente.scala, C:\Users\Dito\Desktop\taller2 arquitectura\migrana\app\autenticacion\servicios\AutServicios.scala, C:\Users\Dito\Desktop\taller2 arquitectura\migrana\target\scala-2.11\routes\main\controllers\ReverseRoutes.scala, C:\Users\Dito\Desktop\taller2 arquitectura\migrana\app\utils\JsonFormat.scala, C:\Users\Dito\Desktop\taller2 arquitectura\migrana\target\scala-2.11\routes\main\controllers\routes.java, C:\Users\Dito\Desktop\taller2 arquitectura\migrana\target\scala-2.11\routes\main\router\Routes.scala, C:\Users\Dito\Desktop\taller2 arquitectura\migrana\target\scala-2.11\routes\main\controllers\javascript\JavaScriptReverseRoutes.scala, C:\Users\Dito\Desktop\taller2 arquitectura\migrana\target\scala-2.11\twirl\main\views\html\employee\editEmpForm.template.scala)
+All initially invalidated sources: Set(C:\Users\Dito\Desktop\taller2 arquitectura\migrana\app\controllers\Application.scala, C:\Users\Dito\Desktop\taller2 arquitectura\migrana\target\scala-2.11\routes\main\router\RoutesPrefix.scala, C:\Users\Dito\Desktop\taller2 arquitectura\migrana\target\scala-2.11\routes\main\controllers\ReverseRoutes.scala, C:\Users\Dito\Desktop\taller2 arquitectura\migrana\target\scala-2.11\routes\main\controllers\routes.java, C:\Users\Dito\Desktop\taller2 arquitectura\migrana\target\scala-2.11\routes\main\router\Routes.scala, C:\Users\Dito\Desktop\taller2 arquitectura\migrana\target\scala-2.11\routes\main\controllers\javascript\JavaScriptReverseRoutes.scala)
 
-Recompiling all 21 sources: invalidated sources (21) exceeded 50.0% of all sources
-Read from stdout: Compiling 20 Scala sources and 1 Java source to C:\Users\Dito\Desktop\taller2 arquitectura\migrana\target\scala-2.11\classes...
-Compiling 20 Scala sources and 1 Java source to C:\Users\Dito\Desktop\taller2 arquitectura\migrana\target\scala-2.11\classes...
+Read from stdout: Compiling 5 Scala sources and 1 Java source to C:\Users\Dito\Desktop\taller2 arquitectura\migrana\target\scala-2.11\classes...
+Compiling 5 Scala sources and 1 Java source to C:\Users\Dito\Desktop\taller2 arquitectura\migrana\target\scala-2.11\classes...
 Getting compiler-interface from component compiler for Scala 2.11.8
 Other repositories:
 Default repositories:
 Getting compiler-interface from component compiler for Scala 2.11.8
 Other repositories:
 Default repositories:
-Running cached compiler 51596817, interfacing (CompilerInterface) with Scala compiler version 2.11.8
+Running cached compiler 4fe92179, interfacing (CompilerInterface) with Scala compiler version 2.11.8
 Calling Scala compiler with arguments  (CompilerInterface):
 	-deprecation
 	-unchecked
@@ -3898,126 +3810,254 @@ Calling Scala compiler with arguments  (CompilerInterface):
 	C:\Program Files\Java\jdk1.8.0_65\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_65\jre\classes;C:\Users\Dito\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.8.jar
 	-classpath
 	C:\Users\Dito\Desktop\taller2 arquitectura\migrana\target\scala-2.11\classes;C:\Users\Dito\Downloads\typesafe-activator-1.3.10\activator-dist-1.3.10\repository\com.typesafe.play\twirl-api_2.11\1.1.1\jars\twirl-api_2.11.jar;C:\Users\Dito\Downloads\typesafe-activator-1.3.10\activator-dist-1.3.10\repository\org.apache.commons\commons-lang3\3.4\jars\commons-lang3.jar;C:\Users\Dito\.ivy2\cache\org.scala-lang.modules\scala-xml_2.11\bundles\scala-xml_2.11-1.0.1.jar;C:\Users\Dito\.ivy2\cache\com.typesafe.play\play-server_2.11\jars\play-server_2.11-2.5.4.jar;C:\Users\Dito\.ivy2\cache\com.typesafe.play\play_2.11\jars\play_2.11-2.5.4.jar;C:\Users\Dito\.ivy2\cache\com.typesafe.play\build-link\jars\build-link-2.5.4.jar;C:\Users\Dito\.ivy2\cache\com.typesafe.play\play-exceptions\jars\play-exceptions-2.5.4.jar;C:\Users\Dito\.ivy2\cache\com.typesafe.play\play-iteratees_2.11\jars\play-iteratees_2.11-2.5.4.jar;C:\Users\Dito\.ivy2\cache\org.scala-stm\scala-stm_2.11\jars\scala-stm_2.11-0.7.jar;C:\Users\Dito\Downloads\typesafe-activator-1.3.10\activator-dist-1.3.10\repository\com.typesafe\config\1.3.0\bundles\config.jar;C:\Users\Dito\.ivy2\cache\ch.qos.logback\logback-classic\jars\logback-classic-1.1.7.jar;C:\Users\Dito\.ivy2\cache\ch.qos.logback\logback-core\jars\logback-core-1.1.7.jar;C:\Users\Dito\.ivy2\cache\org.slf4j\slf4j-api\jars\slf4j-api-1.7.19.jar;C:\Users\Dito\.ivy2\cache\com.typesafe.play\play-json_2.11\jars\play-json_2.11-2.5.4.jar;C:\Users\Dito\.ivy2\cache\com.typesafe.play\play-functional_2.11\jars\play-functional_2.11-2.5.4.jar;C:\Users\Dito\.ivy2\cache\com.typesafe.play\play-datacommons_2.11\jars\play-datacommons_2.11-2.5.4.jar;C:\Users\Dito\Downloads\typesafe-activator-1.3.10\activator-dist-1.3.10\repository\joda-time\joda-time\2.9.2\jars\joda-time.jar;C:\Users\Dito\Downloads\typesafe-activator-1.3.10\activator-dist-1.3.10\repository\org.joda\joda-convert\1.8.1\jars\joda-convert.jar;C:\Users\Dito\Downloads\typesafe-activator-1.3.10\activator-dist-1.3.10\repository\org.scala-lang\scala-reflect\2.11.7\jars\scala-reflect.jar;C:\Users\Dito\Downloads\typesafe-activator-1.3.10\activator-dist-1.3.10\repository\com.fasterxml.jackson.core\jackson-core\2.7.1\bundles\jackson-core.jar;C:\Users\Dito\Downloads\typesafe-activator-1.3.10\activator-dist-1.3.10\repository\com.fasterxml.jackson.core\jackson-annotations\2.7.1\bundles\jackson-annotations.jar;C:\Users\Dito\Downloads\typesafe-activator-1.3.10\activator-dist-1.3.10\repository\com.fasterxml.jackson.core\jackson-databind\2.7.1\bundles\jackson-databind.jar;C:\Users\Dito\Downloads\typesafe-activator-1.3.10\activator-dist-1.3.10\repository\com.fasterxml.jackson.datatype\jackson-datatype-jdk8\2.7.1\bundles\jackson-datatype-jdk8.jar;C:\Users\Dito\Downloads\typesafe-activator-1.3.10\activator-dist-1.3.10\repository\com.fasterxml.jackson.datatype\jackson-datatype-jsr310\2.7.1\bundles\jackson-datatype-jsr310.jar;C:\Users\Dito\.ivy2\cache\com.typesafe.play\play-netty-utils\jars\play-netty-utils-2.5.4.jar;C:\Users\Dito\.ivy2\cache\org.slf4j\jul-to-slf4j\jars\jul-to-slf4j-1.7.19.jar;C:\Users\Dito\.ivy2\cache\org.slf4j\jcl-over-slf4j\jars\jcl-over-slf4j-1.7.19.jar;C:\Users\Dito\.ivy2\cache\com.typesafe.play\play-streams_2.11\jars\play-streams_2.11-2.5.4.jar;C:\Users\Dito\Downloads\typesafe-activator-1.3.10\activator-dist-1.3.10\repository\org.reactivestreams\reactive-streams\1.0.0\jars\reactive-streams.jar;C:\Users\Dito\.ivy2\cache\com.typesafe.akka\akka-stream_2.11\jars\akka-stream_2.11-2.4.4.jar;C:\Users\Dito\.ivy2\cache\com.typesafe.akka\akka-actor_2.11\jars\akka-actor_2.11-2.4.4.jar;C:\Users\Dito\Downloads\typesafe-activator-1.3.10\activator-dist-1.3.10\repository\org.scala-lang.modules\scala-java8-compat_2.11\0.7.0\bundles\scala-java8-compat_2.11.jar;C:\Users\Dito\.ivy2\cache\com.typesafe\ssl-config-akka_2.11\bundles\ssl-config-akka_2.11-0.2.1.jar;C:\Users\Dito\.ivy2\cache\com.typesafe\ssl-config-core_2.11\bundles\ssl-config-core_2.11-0.2.1.jar;C:\Users\Dito\.ivy2\cache\org.scala-lang.modules\scala-parser-combinators_2.11\bundles\scala-parser-combinators_2.11-1.0.4.jar;C:\Users\Dito\.ivy2\cache\com.typesafe.akka\akka-slf4j_2.11\jars\akka-slf4j_2.11-2.4.4.jar;C:\Users\Dito\Downloads\typesafe-activator-1.3.10\activator-dist-1.3.10\repository\commons-codec\commons-codec\1.10\jars\commons-codec.jar;C:\Users\Dito\.ivy2\cache\xerces\xercesImpl\jars\xercesImpl-2.11.0.jar;C:\Users\Dito\.ivy2\cache\xml-apis\xml-apis\jars\xml-apis-1.4.01.jar;C:\Users\Dito\.ivy2\cache\javax.transaction\jta\jars\jta-1.1.jar;C:\Users\Dito\Downloads\typesafe-activator-1.3.10\activator-dist-1.3.10\repository\com.google.inject\guice\4.0\jars\guice.jar;C:\Users\Dito\Downloads\typesafe-activator-1.3.10\activator-dist-1.3.10\repository\javax.inject\javax.inject\1\jars\javax.inject.jar;C:\Users\Dito\Downloads\typesafe-activator-1.3.10\activator-dist-1.3.10\repository\aopalliance\aopalliance\1.0\jars\aopalliance.jar;C:\Users\Dito\.ivy2\cache\com.google.guava\guava\bundles\guava-16.0.1.jar;C:\Users\Dito\Downloads\typesafe-activator-1.3.10\activator-dist-1.3.10\repository\com.google.inject.extensions\guice-assistedinject\4.0\jars\guice-assistedinject.jar;C:\Users\Dito\.ivy2\cache\com.typesafe.play\play-netty-server_2.11\jars\play-netty-server_2.11-2.5.4.jar;C:\Users\Dito\.ivy2\cache\com.typesafe.netty\netty-reactive-streams-http\jars\netty-reactive-streams-http-1.0.6.jar;C:\Users\Dito\.ivy2\cache\com.typesafe.netty\netty-reactive-streams\jars\netty-reactive-streams-1.0.6.jar;C:\Users\Dito\Downloads\typesafe-activator-1.3.10\activator-dist-1.3.10\repository\io.netty\netty-handler\4.0.36.Final\jars\netty-handler.jar;C:\Users\Dito\Downloads\typesafe-activator-1.3.10\activator-dist-1.3.10\repository\io.netty\netty-buffer\4.0.36.Final\jars\netty-buffer.jar;C:\Users\Dito\Downloads\typesafe-activator-1.3.10\activator-dist-1.3.10\repository\io.netty\netty-common\4.0.36.Final\jars\netty-common.jar;C:\Users\Dito\Downloads\typesafe-activator-1.3.10\activator-dist-1.3.10\repository\io.netty\netty-transport\4.0.36.Final\jars\netty-transport.jar;C:\Users\Dito\Downloads\typesafe-activator-1.3.10\activator-dist-1.3.10\repository\io.netty\netty-codec\4.0.36.Final\jars\netty-codec.jar;C:\Users\Dito\Downloads\typesafe-activator-1.3.10\activator-dist-1.3.10\repository\io.netty\netty-codec-http\4.0.36.Final\jars\netty-codec-http.jar;C:\Users\Dito\Downloads\typesafe-activator-1.3.10\activator-dist-1.3.10\repository\io.netty\netty-transport-native-epoll\4.0.36.Final\jars\netty-transport-native-epoll-linux-x86_64.jar;C:\Users\Dito\.ivy2\cache\com.typesafe.play\play-logback_2.11\jars\play-logback_2.11-2.5.4.jar;C:\Users\Dito\.ivy2\cache\mysql\mysql-connector-java\jars\mysql-connector-java-5.1.34.jar;C:\Users\Dito\.ivy2\cache\com.typesafe.play\play-slick_2.11\jars\play-slick_2.11-1.1.0.jar;C:\Users\Dito\.ivy2\cache\com.typesafe.slick\slick_2.11\bundles\slick_2.11-3.1.0.jar;C:\Users\Dito\.ivy2\cache\com.typesafe.slick\slick-hikaricp_2.11\bundles\slick-hikaricp_2.11-3.1.0.jar;C:\Users\Dito\.ivy2\cache\com.zaxxer\HikariCP-java6\bundles\HikariCP-java6-2.3.7.jar;C:\Users\Dito\Downloads\typesafe-activator-1.3.10\activator-dist-1.3.10\repository\org.javassist\javassist\3.19.0-GA\bundles\javassist.jar;C:\Users\Dito\.ivy2\cache\com.typesafe.play\play-jdbc-api_2.11\jars\play-jdbc-api_2.11-2.4.0.jar;C:\Users\Dito\.ivy2\cache\com.typesafe.play\play-slick-evolutions_2.11\jars\play-slick-evolutions_2.11-1.1.0.jar;C:\Users\Dito\.ivy2\cache\com.typesafe.play\play-jdbc-evolutions_2.11\jars\play-jdbc-evolutions_2.11-2.4.0.jar;C:\Users\Dito\.ivy2\cache\org.webjars\webjars-play_2.11\jars\webjars-play_2.11-2.5.0.jar;C:\Users\Dito\.ivy2\cache\org.webjars\requirejs\jars\requirejs-2.1.20.jar;C:\Users\Dito\.ivy2\cache\org.webjars\webjars-locator\jars\webjars-locator-0.30.jar;C:\Users\Dito\.ivy2\cache\org.webjars\webjars-locator-core\jars\webjars-locator-core-0.30.jar;C:\Users\Dito\Downloads\typesafe-activator-1.3.10\activator-dist-1.3.10\repository\org.apache.commons\commons-compress\1.9\jars\commons-compress.jar;C:\Users\Dito\.ivy2\cache\org.webjars\jquery\jars\jquery-1.11.3.jar;C:\Users\Dito\.ivy2\cache\org.webjars\bootstrap\jars\bootstrap-3.3.6.jar;C:\Users\Dito\.ivy2\cache\org.webjars\angularjs\jars\angularjs-1.5.5.jar;C:\Users\Dito\.ivy2\cache\org.webjars\angular-ui-bootstrap\jars\angular-ui-bootstrap-1.3.2.jar;C:\Users\Dito\.ivy2\cache\com.nimbusds\nimbus-jose-jwt\jars\nimbus-jose-jwt-3.1.jar;C:\Users\Dito\.ivy2\cache\net.jcip\jcip-annotations\jars\jcip-annotations-1.0.jar;C:\Users\Dito\.ivy2\cache\net.minidev\json-smart\jars\json-smart-1.1.1.jar;C:\Users\Dito\Downloads\typesafe-activator-1.3.10\activator-dist-1.3.10\repository\org.bouncycastle\bcprov-jdk15on\1.51\jars\bcprov-jdk15on.jar
-Read from stdout: C:\Users\Dito\Desktop\taller2 arquitectura\migrana\app\controllers\EmployeeController.scala:4: object Employee is not a member of package models
-C:\Users\Dito\Desktop\taller2 arquitectura\migrana\app\controllers\EmployeeController.scala:4: object Employee is not a member of package models
-Read from stdout: import models.Employee
-import models.Employee
+Read from stdout: C:\Users\Dito\Desktop\taller2 arquitectura\migrana\app\controllers\Application.scala:37: No Json serializer found for type Seq[migrana.modelo.Episodio]. Try to implement an implicit Writes or Format for this type.
+C:\Users\Dito\Desktop\taller2 arquitectura\migrana\app\controllers\Application.scala:37: No Json serializer found for type Seq[migrana.modelo.Episodio]. Try to implement an implicit Writes or Format for this type.
+Read from stdout: Ok( Json.toJson( episodio ) )
+      Ok( Json.toJson( episodio ) )
 Read from stdout: ^
-       ^
-Read from stdout: C:\Users\Dito\Desktop\taller2 arquitectura\migrana\app\controllers\EmployeeController.scala:10: not found: object repo
-C:\Users\Dito\Desktop\taller2 arquitectura\migrana\app\controllers\EmployeeController.scala:10: not found: object repo
-Read from stdout: import repo.EmployeeRepository
-import repo.EmployeeRepository
+                     ^
+Read from stdout: C:\Users\Dito\Desktop\taller2 arquitectura\migrana\app\controllers\Application.scala:43: No Json serializer found for type Seq[migrana.modelo.Episodio]. Try to implement an implicit Writes or Format for this type.
+C:\Users\Dito\Desktop\taller2 arquitectura\migrana\app\controllers\Application.scala:43: No Json serializer found for type Seq[migrana.modelo.Episodio]. Try to implement an implicit Writes or Format for this type.
+Read from stdout: Ok( Json.toJson( episodiosPorPaciente ) )
+      Ok( Json.toJson( episodiosPorPaciente ) )
 Read from stdout: ^
-       ^
-Read from stdout: C:\Users\Dito\Desktop\taller2 arquitectura\migrana\app\controllers\EmployeeController.scala:19: not found: type EmployeeRepository
-C:\Users\Dito\Desktop\taller2 arquitectura\migrana\app\controllers\EmployeeController.scala:19: not found: type EmployeeRepository
-Read from stdout: class EmployeeController @Inject()(empRepository: EmployeeRepository) extends Controller {
-class EmployeeController @Inject()(empRepository: EmployeeRepository) extends Controller {
+                     ^
+Read from stdout: C:\Users\Dito\Desktop\taller2 arquitectura\migrana\app\controllers\Application.scala:49: No Json serializer found for type Seq[migrana.modelo.Paciente]. Try to implement an implicit Writes or Format for this type.
+C:\Users\Dito\Desktop\taller2 arquitectura\migrana\app\controllers\Application.scala:49: No Json serializer found for type Seq[migrana.modelo.Paciente]. Try to implement an implicit Writes or Format for this type.
+Read from stdout: Ok( Json.toJson( pacientes ) )
+      Ok( Json.toJson( pacientes ) )
 Read from stdout: ^
-                                                  ^
-Read from stdout: C:\Users\Dito\Desktop\taller2 arquitectura\migrana\app\utils\JsonFormat.scala:8: not found: type Employee
-C:\Users\Dito\Desktop\taller2 arquitectura\migrana\app\utils\JsonFormat.scala:8: not found: type Employee
-Read from stdout: implicit val employeeFormat = Json.format[Employee]
-  implicit val employeeFormat = Json.format[Employee]
+                     ^
+Read from stdout: C:\Users\Dito\Desktop\taller2 arquitectura\migrana\app\controllers\Application.scala:55: No Json deserializer found for type migrana.modelo.Episodio. Try to implement an implicit Reads or Format for this type.
+C:\Users\Dito\Desktop\taller2 arquitectura\migrana\app\controllers\Application.scala:55: No Json deserializer found for type migrana.modelo.Episodio. Try to implement an implicit Reads or Format for this type.
+Read from stdout: json.validate[Episodio].map{
+      json.validate[Episodio].map{
 Read from stdout: ^
-                                            ^
-Read from stdout: C:\Users\Dito\Desktop\taller2 arquitectura\migrana\app\controllers\EmployeeController.scala:44: not found: type Employee
-C:\Users\Dito\Desktop\taller2 arquitectura\migrana\app\controllers\EmployeeController.scala:44: not found: type Employee
-Read from stdout: request.body.validate[Employee].fold(error => Future.successful(BadRequest(JsError.toJson(error))), { emp =>
-    request.body.validate[Employee].fold(error => Future.successful(BadRequest(JsError.toJson(error))), { emp =>
+                   ^
+Read from stdout: C:\Users\Dito\Desktop\taller2 arquitectura\migrana\app\controllers\Application.scala:72: No Json deserializer found for type List[migrana.modelo.Episodio]. Try to implement an implicit Reads or Format for this type.
+C:\Users\Dito\Desktop\taller2 arquitectura\migrana\app\controllers\Application.scala:72: No Json deserializer found for type List[migrana.modelo.Episodio]. Try to implement an implicit Reads or Format for this type.
+Read from stdout: json.validate[List[Episodio]].map {
+      json.validate[List[Episodio]].map {
 Read from stdout: ^
-                          ^
-Read from stdout: C:\Users\Dito\Desktop\taller2 arquitectura\migrana\app\controllers\EmployeeController.scala:75: not found: type Employee
-C:\Users\Dito\Desktop\taller2 arquitectura\migrana\app\controllers\EmployeeController.scala:75: not found: type Employee
-Read from stdout: request.body.validate[Employee].fold(error => Future.successful(BadRequest(JsError.toJson(error))), { emp =>
-    request.body.validate[Employee].fold(error => Future.successful(BadRequest(JsError.toJson(error))), { emp =>
+                   ^
+Read from stdout: 5 errors found
+5 errors found
+Compilation failed (CompilerInterface)
+Total time: 2 s, completed 06-jul-2016 19:34:49
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/C:/Users/Dito/Desktop/taller2%20arquitectura/migrana/}root/*:playForkReload
+Evaluating tasks: *:playForkReload
+Running task... Cancel: sbt.server.ServerTaskCancellation@6150ad86, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(C:\Users\Dito\Desktop\taller2 arquitectura\migrana\app\controllers\Application.scala, C:\Users\Dito\Desktop\taller2 arquitectura\migrana\target\scala-2.11\routes\main\router\RoutesPrefix.scala, C:\Users\Dito\Desktop\taller2 arquitectura\migrana\target\scala-2.11\routes\main\controllers\ReverseRoutes.scala, C:\Users\Dito\Desktop\taller2 arquitectura\migrana\target\scala-2.11\routes\main\controllers\routes.java, C:\Users\Dito\Desktop\taller2 arquitectura\migrana\target\scala-2.11\routes\main\router\Routes.scala, C:\Users\Dito\Desktop\taller2 arquitectura\migrana\target\scala-2.11\routes\main\controllers\javascript\JavaScriptReverseRoutes.scala)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(C:\Users\Dito\Desktop\taller2 arquitectura\migrana\app\controllers\Application.scala, C:\Users\Dito\Desktop\taller2 arquitectura\migrana\target\scala-2.11\routes\main\router\RoutesPrefix.scala, C:\Users\Dito\Desktop\taller2 arquitectura\migrana\target\scala-2.11\routes\main\controllers\ReverseRoutes.scala, C:\Users\Dito\Desktop\taller2 arquitectura\migrana\target\scala-2.11\routes\main\controllers\routes.java, C:\Users\Dito\Desktop\taller2 arquitectura\migrana\target\scala-2.11\routes\main\router\Routes.scala, C:\Users\Dito\Desktop\taller2 arquitectura\migrana\target\scala-2.11\routes\main\controllers\javascript\JavaScriptReverseRoutes.scala)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(C:\Users\Dito\Desktop\taller2 arquitectura\migrana\app\controllers\Application.scala, C:\Users\Dito\Desktop\taller2 arquitectura\migrana\target\scala-2.11\routes\main\router\RoutesPrefix.scala, C:\Users\Dito\Desktop\taller2 arquitectura\migrana\target\scala-2.11\routes\main\controllers\ReverseRoutes.scala, C:\Users\Dito\Desktop\taller2 arquitectura\migrana\target\scala-2.11\routes\main\controllers\routes.java, C:\Users\Dito\Desktop\taller2 arquitectura\migrana\target\scala-2.11\routes\main\router\Routes.scala, C:\Users\Dito\Desktop\taller2 arquitectura\migrana\target\scala-2.11\routes\main\controllers\javascript\JavaScriptReverseRoutes.scala)
+
+Read from stdout: Compiling 5 Scala sources and 1 Java source to C:\Users\Dito\Desktop\taller2 arquitectura\migrana\target\scala-2.11\classes...
+Compiling 5 Scala sources and 1 Java source to C:\Users\Dito\Desktop\taller2 arquitectura\migrana\target\scala-2.11\classes...
+Getting compiler-interface from component compiler for Scala 2.11.8
+Other repositories:
+Default repositories:
+Getting compiler-interface from component compiler for Scala 2.11.8
+Other repositories:
+Default repositories:
+Running cached compiler 1da31ec4, interfacing (CompilerInterface) with Scala compiler version 2.11.8
+Calling Scala compiler with arguments  (CompilerInterface):
+	-deprecation
+	-unchecked
+	-encoding
+	utf8
+	-bootclasspath
+	C:\Program Files\Java\jdk1.8.0_65\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_65\jre\classes;C:\Users\Dito\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.8.jar
+	-classpath
+	C:\Users\Dito\Desktop\taller2 arquitectura\migrana\target\scala-2.11\classes;C:\Users\Dito\Downloads\typesafe-activator-1.3.10\activator-dist-1.3.10\repository\com.typesafe.play\twirl-api_2.11\1.1.1\jars\twirl-api_2.11.jar;C:\Users\Dito\Downloads\typesafe-activator-1.3.10\activator-dist-1.3.10\repository\org.apache.commons\commons-lang3\3.4\jars\commons-lang3.jar;C:\Users\Dito\.ivy2\cache\org.scala-lang.modules\scala-xml_2.11\bundles\scala-xml_2.11-1.0.1.jar;C:\Users\Dito\.ivy2\cache\com.typesafe.play\play-server_2.11\jars\play-server_2.11-2.5.4.jar;C:\Users\Dito\.ivy2\cache\com.typesafe.play\play_2.11\jars\play_2.11-2.5.4.jar;C:\Users\Dito\.ivy2\cache\com.typesafe.play\build-link\jars\build-link-2.5.4.jar;C:\Users\Dito\.ivy2\cache\com.typesafe.play\play-exceptions\jars\play-exceptions-2.5.4.jar;C:\Users\Dito\.ivy2\cache\com.typesafe.play\play-iteratees_2.11\jars\play-iteratees_2.11-2.5.4.jar;C:\Users\Dito\.ivy2\cache\org.scala-stm\scala-stm_2.11\jars\scala-stm_2.11-0.7.jar;C:\Users\Dito\Downloads\typesafe-activator-1.3.10\activator-dist-1.3.10\repository\com.typesafe\config\1.3.0\bundles\config.jar;C:\Users\Dito\.ivy2\cache\ch.qos.logback\logback-classic\jars\logback-classic-1.1.7.jar;C:\Users\Dito\.ivy2\cache\ch.qos.logback\logback-core\jars\logback-core-1.1.7.jar;C:\Users\Dito\.ivy2\cache\org.slf4j\slf4j-api\jars\slf4j-api-1.7.19.jar;C:\Users\Dito\.ivy2\cache\com.typesafe.play\play-json_2.11\jars\play-json_2.11-2.5.4.jar;C:\Users\Dito\.ivy2\cache\com.typesafe.play\play-functional_2.11\jars\play-functional_2.11-2.5.4.jar;C:\Users\Dito\.ivy2\cache\com.typesafe.play\play-datacommons_2.11\jars\play-datacommons_2.11-2.5.4.jar;C:\Users\Dito\Downloads\typesafe-activator-1.3.10\activator-dist-1.3.10\repository\joda-time\joda-time\2.9.2\jars\joda-time.jar;C:\Users\Dito\Downloads\typesafe-activator-1.3.10\activator-dist-1.3.10\repository\org.joda\joda-convert\1.8.1\jars\joda-convert.jar;C:\Users\Dito\Downloads\typesafe-activator-1.3.10\activator-dist-1.3.10\repository\org.scala-lang\scala-reflect\2.11.7\jars\scala-reflect.jar;C:\Users\Dito\Downloads\typesafe-activator-1.3.10\activator-dist-1.3.10\repository\com.fasterxml.jackson.core\jackson-core\2.7.1\bundles\jackson-core.jar;C:\Users\Dito\Downloads\typesafe-activator-1.3.10\activator-dist-1.3.10\repository\com.fasterxml.jackson.core\jackson-annotations\2.7.1\bundles\jackson-annotations.jar;C:\Users\Dito\Downloads\typesafe-activator-1.3.10\activator-dist-1.3.10\repository\com.fasterxml.jackson.core\jackson-databind\2.7.1\bundles\jackson-databind.jar;C:\Users\Dito\Downloads\typesafe-activator-1.3.10\activator-dist-1.3.10\repository\com.fasterxml.jackson.datatype\jackson-datatype-jdk8\2.7.1\bundles\jackson-datatype-jdk8.jar;C:\Users\Dito\Downloads\typesafe-activator-1.3.10\activator-dist-1.3.10\repository\com.fasterxml.jackson.datatype\jackson-datatype-jsr310\2.7.1\bundles\jackson-datatype-jsr310.jar;C:\Users\Dito\.ivy2\cache\com.typesafe.play\play-netty-utils\jars\play-netty-utils-2.5.4.jar;C:\Users\Dito\.ivy2\cache\org.slf4j\jul-to-slf4j\jars\jul-to-slf4j-1.7.19.jar;C:\Users\Dito\.ivy2\cache\org.slf4j\jcl-over-slf4j\jars\jcl-over-slf4j-1.7.19.jar;C:\Users\Dito\.ivy2\cache\com.typesafe.play\play-streams_2.11\jars\play-streams_2.11-2.5.4.jar;C:\Users\Dito\Downloads\typesafe-activator-1.3.10\activator-dist-1.3.10\repository\org.reactivestreams\reactive-streams\1.0.0\jars\reactive-streams.jar;C:\Users\Dito\.ivy2\cache\com.typesafe.akka\akka-stream_2.11\jars\akka-stream_2.11-2.4.4.jar;C:\Users\Dito\.ivy2\cache\com.typesafe.akka\akka-actor_2.11\jars\akka-actor_2.11-2.4.4.jar;C:\Users\Dito\Downloads\typesafe-activator-1.3.10\activator-dist-1.3.10\repository\org.scala-lang.modules\scala-java8-compat_2.11\0.7.0\bundles\scala-java8-compat_2.11.jar;C:\Users\Dito\.ivy2\cache\com.typesafe\ssl-config-akka_2.11\bundles\ssl-config-akka_2.11-0.2.1.jar;C:\Users\Dito\.ivy2\cache\com.typesafe\ssl-config-core_2.11\bundles\ssl-config-core_2.11-0.2.1.jar;C:\Users\Dito\.ivy2\cache\org.scala-lang.modules\scala-parser-combinators_2.11\bundles\scala-parser-combinators_2.11-1.0.4.jar;C:\Users\Dito\.ivy2\cache\com.typesafe.akka\akka-slf4j_2.11\jars\akka-slf4j_2.11-2.4.4.jar;C:\Users\Dito\Downloads\typesafe-activator-1.3.10\activator-dist-1.3.10\repository\commons-codec\commons-codec\1.10\jars\commons-codec.jar;C:\Users\Dito\.ivy2\cache\xerces\xercesImpl\jars\xercesImpl-2.11.0.jar;C:\Users\Dito\.ivy2\cache\xml-apis\xml-apis\jars\xml-apis-1.4.01.jar;C:\Users\Dito\.ivy2\cache\javax.transaction\jta\jars\jta-1.1.jar;C:\Users\Dito\Downloads\typesafe-activator-1.3.10\activator-dist-1.3.10\repository\com.google.inject\guice\4.0\jars\guice.jar;C:\Users\Dito\Downloads\typesafe-activator-1.3.10\activator-dist-1.3.10\repository\javax.inject\javax.inject\1\jars\javax.inject.jar;C:\Users\Dito\Downloads\typesafe-activator-1.3.10\activator-dist-1.3.10\repository\aopalliance\aopalliance\1.0\jars\aopalliance.jar;C:\Users\Dito\.ivy2\cache\com.google.guava\guava\bundles\guava-16.0.1.jar;C:\Users\Dito\Downloads\typesafe-activator-1.3.10\activator-dist-1.3.10\repository\com.google.inject.extensions\guice-assistedinject\4.0\jars\guice-assistedinject.jar;C:\Users\Dito\.ivy2\cache\com.typesafe.play\play-netty-server_2.11\jars\play-netty-server_2.11-2.5.4.jar;C:\Users\Dito\.ivy2\cache\com.typesafe.netty\netty-reactive-streams-http\jars\netty-reactive-streams-http-1.0.6.jar;C:\Users\Dito\.ivy2\cache\com.typesafe.netty\netty-reactive-streams\jars\netty-reactive-streams-1.0.6.jar;C:\Users\Dito\Downloads\typesafe-activator-1.3.10\activator-dist-1.3.10\repository\io.netty\netty-handler\4.0.36.Final\jars\netty-handler.jar;C:\Users\Dito\Downloads\typesafe-activator-1.3.10\activator-dist-1.3.10\repository\io.netty\netty-buffer\4.0.36.Final\jars\netty-buffer.jar;C:\Users\Dito\Downloads\typesafe-activator-1.3.10\activator-dist-1.3.10\repository\io.netty\netty-common\4.0.36.Final\jars\netty-common.jar;C:\Users\Dito\Downloads\typesafe-activator-1.3.10\activator-dist-1.3.10\repository\io.netty\netty-transport\4.0.36.Final\jars\netty-transport.jar;C:\Users\Dito\Downloads\typesafe-activator-1.3.10\activator-dist-1.3.10\repository\io.netty\netty-codec\4.0.36.Final\jars\netty-codec.jar;C:\Users\Dito\Downloads\typesafe-activator-1.3.10\activator-dist-1.3.10\repository\io.netty\netty-codec-http\4.0.36.Final\jars\netty-codec-http.jar;C:\Users\Dito\Downloads\typesafe-activator-1.3.10\activator-dist-1.3.10\repository\io.netty\netty-transport-native-epoll\4.0.36.Final\jars\netty-transport-native-epoll-linux-x86_64.jar;C:\Users\Dito\.ivy2\cache\com.typesafe.play\play-logback_2.11\jars\play-logback_2.11-2.5.4.jar;C:\Users\Dito\.ivy2\cache\mysql\mysql-connector-java\jars\mysql-connector-java-5.1.34.jar;C:\Users\Dito\.ivy2\cache\com.typesafe.play\play-slick_2.11\jars\play-slick_2.11-1.1.0.jar;C:\Users\Dito\.ivy2\cache\com.typesafe.slick\slick_2.11\bundles\slick_2.11-3.1.0.jar;C:\Users\Dito\.ivy2\cache\com.typesafe.slick\slick-hikaricp_2.11\bundles\slick-hikaricp_2.11-3.1.0.jar;C:\Users\Dito\.ivy2\cache\com.zaxxer\HikariCP-java6\bundles\HikariCP-java6-2.3.7.jar;C:\Users\Dito\Downloads\typesafe-activator-1.3.10\activator-dist-1.3.10\repository\org.javassist\javassist\3.19.0-GA\bundles\javassist.jar;C:\Users\Dito\.ivy2\cache\com.typesafe.play\play-jdbc-api_2.11\jars\play-jdbc-api_2.11-2.4.0.jar;C:\Users\Dito\.ivy2\cache\com.typesafe.play\play-slick-evolutions_2.11\jars\play-slick-evolutions_2.11-1.1.0.jar;C:\Users\Dito\.ivy2\cache\com.typesafe.play\play-jdbc-evolutions_2.11\jars\play-jdbc-evolutions_2.11-2.4.0.jar;C:\Users\Dito\.ivy2\cache\org.webjars\webjars-play_2.11\jars\webjars-play_2.11-2.5.0.jar;C:\Users\Dito\.ivy2\cache\org.webjars\requirejs\jars\requirejs-2.1.20.jar;C:\Users\Dito\.ivy2\cache\org.webjars\webjars-locator\jars\webjars-locator-0.30.jar;C:\Users\Dito\.ivy2\cache\org.webjars\webjars-locator-core\jars\webjars-locator-core-0.30.jar;C:\Users\Dito\Downloads\typesafe-activator-1.3.10\activator-dist-1.3.10\repository\org.apache.commons\commons-compress\1.9\jars\commons-compress.jar;C:\Users\Dito\.ivy2\cache\org.webjars\jquery\jars\jquery-1.11.3.jar;C:\Users\Dito\.ivy2\cache\org.webjars\bootstrap\jars\bootstrap-3.3.6.jar;C:\Users\Dito\.ivy2\cache\org.webjars\angularjs\jars\angularjs-1.5.5.jar;C:\Users\Dito\.ivy2\cache\org.webjars\angular-ui-bootstrap\jars\angular-ui-bootstrap-1.3.2.jar;C:\Users\Dito\.ivy2\cache\com.nimbusds\nimbus-jose-jwt\jars\nimbus-jose-jwt-3.1.jar;C:\Users\Dito\.ivy2\cache\net.jcip\jcip-annotations\jars\jcip-annotations-1.0.jar;C:\Users\Dito\.ivy2\cache\net.minidev\json-smart\jars\json-smart-1.1.1.jar;C:\Users\Dito\Downloads\typesafe-activator-1.3.10\activator-dist-1.3.10\repository\org.bouncycastle\bcprov-jdk15on\1.51\jars\bcprov-jdk15on.jar
+Read from stdout: C:\Users\Dito\Desktop\taller2 arquitectura\migrana\app\controllers\Application.scala:23: pacienteFormat is already defined as value pacienteFormat
+C:\Users\Dito\Desktop\taller2 arquitectura\migrana\app\controllers\Application.scala:23: pacienteFormat is already defined as value pacienteFormat
+Read from stdout: implicit val pacienteFormat = Json.format[Paciente]
+  implicit val pacienteFormat = Json.format[Paciente]
 Read from stdout: ^
-                          ^
-Read from stdout: C:\Users\Dito\Desktop\taller2 arquitectura\migrana\app\migrana\models\Repository.scala:18: not found: type PacienteTable
-C:\Users\Dito\Desktop\taller2 arquitectura\migrana\app\migrana\models\Repository.scala:18: not found: type PacienteTable
-Read from stdout: val pacienteQuery = TableQuery[PacienteTable]
-  val pacienteQuery = TableQuery[PacienteTable]
+               ^
+Read from stdout: C:\Users\Dito\Desktop\taller2 arquitectura\migrana\app\controllers\Application.scala:26: No Json deserializer found for type autenticacion.modelo.Auth. Try to implement an implicit Reads or Format for this type.
+C:\Users\Dito\Desktop\taller2 arquitectura\migrana\app\controllers\Application.scala:26: No Json deserializer found for type autenticacion.modelo.Auth. Try to implement an implicit Reads or Format for this type.
+Read from stdout: request.body.validate[ Auth ] match {
+    request.body.validate[ Auth ] match {
 Read from stdout: ^
-                                 ^
-Read from stdout: C:\Users\Dito\Desktop\taller2 arquitectura\migrana\app\migrana\models\Repository.scala:53: not found: type Paciente
-C:\Users\Dito\Desktop\taller2 arquitectura\migrana\app\migrana\models\Repository.scala:53: not found: type Paciente
-Read from stdout: def getPacientes(TipoDocumento:Option[ String ],  NumeroDocumento: Option[Long ] ): Future[Seq[Paciente]] = {
-  def getPacientes(TipoDocumento:Option[ String ],  NumeroDocumento: Option[Long ] ): Future[Seq[Paciente]] = {
-Read from stdout: ^
-                                                                                                 ^
-Read from stdout: C:\Users\Dito\Desktop\taller2 arquitectura\migrana\app\migrana\services\migranaServices.scala:9: not found: type Episodio
-C:\Users\Dito\Desktop\taller2 arquitectura\migrana\app\migrana\services\migranaServices.scala:9: not found: type Episodio
-Read from stdout: def addEpisodio(epiCompleto: Episodio): Future[String] = {
-  def addEpisodio(epiCompleto: Episodio): Future[String] = {
-Read from stdout: ^
-                               ^
-Read from stdout: C:\Users\Dito\Desktop\taller2 arquitectura\migrana\app\migrana\services\migranaServices.scala:10: not found: value Repository
-C:\Users\Dito\Desktop\taller2 arquitectura\migrana\app\migrana\services\migranaServices.scala:10: not found: value Repository
-Read from stdout: Repository.addEpisodio(epiCompleto)
-    Repository.addEpisodio(epiCompleto)
-Read from stdout: ^
-    ^
-Read from stdout: C:\Users\Dito\Desktop\taller2 arquitectura\migrana\app\migrana\services\migranaServices.scala:13: not found: type Episodio
-C:\Users\Dito\Desktop\taller2 arquitectura\migrana\app\migrana\services\migranaServices.scala:13: not found: type Episodio
-Read from stdout: def addListEpisodios(epiCompleto: List[ Episodio]): Future[String] = {
-  def addListEpisodios(epiCompleto: List[ Episodio]): Future[String] = {
-Read from stdout: ^
-                                          ^
-Read from stdout: C:\Users\Dito\Desktop\taller2 arquitectura\migrana\app\migrana\services\migranaServices.scala:14: not found: value Repository
-C:\Users\Dito\Desktop\taller2 arquitectura\migrana\app\migrana\services\migranaServices.scala:14: not found: value Repository
-Read from stdout: Repository.addListEpisodios(epiCompleto)
-    Repository.addListEpisodios(epiCompleto)
-Read from stdout: ^
-    ^
-Read from stdout: C:\Users\Dito\Desktop\taller2 arquitectura\migrana\app\migrana\services\migranaServices.scala:17: not found: type Episodio
-C:\Users\Dito\Desktop\taller2 arquitectura\migrana\app\migrana\services\migranaServices.scala:17: not found: type Episodio
-Read from stdout: def getEpisodios(id: Option[ Long ]): Future[Seq[Episodio]] = {
-  def getEpisodios(id: Option[ Long ]): Future[Seq[Episodio]] = {
-Read from stdout: ^
-                                                   ^
-Read from stdout: C:\Users\Dito\Desktop\taller2 arquitectura\migrana\app\migrana\services\migranaServices.scala:18: not found: value Repository
-C:\Users\Dito\Desktop\taller2 arquitectura\migrana\app\migrana\services\migranaServices.scala:18: not found: value Repository
-Read from stdout: Repository.getEpisodios(id)
-    Repository.getEpisodios(id)
-Read from stdout: ^
-    ^
-Read from stdout: C:\Users\Dito\Desktop\taller2 arquitectura\migrana\app\migrana\services\migranaServices.scala:23: not found: value Repository
-C:\Users\Dito\Desktop\taller2 arquitectura\migrana\app\migrana\services\migranaServices.scala:23: not found: value Repository
-Read from stdout: Repository.getEpisodiosPorPaciente(TipoDocumento,NumeroDocumento)
-    Repository.getEpisodiosPorPaciente(TipoDocumento,NumeroDocumento)
-Read from stdout: ^
-    ^
-Read from stdout: C:\Users\Dito\Desktop\taller2 arquitectura\migrana\app\migrana\services\migranaServices.scala:27: not found: value Repository
-C:\Users\Dito\Desktop\taller2 arquitectura\migrana\app\migrana\services\migranaServices.scala:27: not found: value Repository
-Read from stdout: Repository.getPacientes(TipoDocumento, NumeroDocumento)
-    Repository.getPacientes(TipoDocumento, NumeroDocumento)
-Read from stdout: ^
-    ^
-Read from stdout: C:\Users\Dito\Desktop\taller2 arquitectura\migrana\app\migrana\services\migranaServices.scala:32: not found: value Repository
-C:\Users\Dito\Desktop\taller2 arquitectura\migrana\app\migrana\services\migranaServices.scala:32: not found: value Repository
-Read from stdout: Repository.getTotalEpisodosPorPaciente(idPaciente).map(total=> {
-    Repository.getTotalEpisodosPorPaciente(idPaciente).map(total=> {
-Read from stdout: ^
-    ^
-Read from stdout: C:\Users\Dito\Desktop\taller2 arquitectura\migrana\app\views\index.scala.html:29: Adaptation of argument list by inserting () has been deprecated: leaky (Object-receiving) target makes this especially dangerous.
-Read from stdout: signature: editEmpForm.apply(param: Any): play.twirl.api.HtmlFormat.Appendable
-Read from stdout: given arguments: <none>
-Read from stdout: after adaptation: editEmpForm((): Unit)
-C:\Users\Dito\Desktop\taller2 arquitectura\migrana\app\views\index.scala.html:29: Adaptation of argument list by inserting () has been deprecated: leaky (Object-receiving) target makes this especially dangerous.
-        signature: editEmpForm.apply(param: Any): play.twirl.api.HtmlFormat.Appendable
-  given arguments: <none>
- after adaptation: editEmpForm((): Unit)
-Read from stdout: @views.html.employee.editEmpForm()
-    @views.html.employee.editEmpForm()
+                         ^
+Read from stdout: C:\Users\Dito\Desktop\taller2 arquitectura\migrana\app\controllers\Application.scala:28: type mismatch;
+Read from stdout: found   : Any
+Read from stdout: required: autenticacion.modelo.Auth
+C:\Users\Dito\Desktop\taller2 arquitectura\migrana\app\controllers\Application.scala:28: type mismatch;
+ found   : Any
+ required: autenticacion.modelo.Auth
+Read from stdout: AutServicios.validarUsuario(auth) match {
+        AutServicios.validarUsuario(auth) match {
 Read from stdout: ^
                                     ^
-Read from stdout: one warning found
-one warning found
-Read from stdout: 17 errors found
-17 errors found
+Read from stdout: C:\Users\Dito\Desktop\taller2 arquitectura\migrana\app\controllers\Application.scala:29: Cannot write an instance of Any to HTTP response. Try to define a Writeable[Any]
+C:\Users\Dito\Desktop\taller2 arquitectura\migrana\app\controllers\Application.scala:29: Cannot write an instance of Any to HTTP response. Try to define a Writeable[Any]
+Read from stdout: case Some(token)=> Future.successful(Accepted(token))
+          case Some(token)=> Future.successful(Accepted(token))
+Read from stdout: ^
+                                                       ^
+Read from stdout: C:\Users\Dito\Desktop\taller2 arquitectura\migrana\app\controllers\Application.scala:42: Cannot find an implicit ExecutionContext. You might pass
+Read from stdout: an (implicit ec: ExecutionContext) parameter to your method
+Read from stdout: or import scala.concurrent.ExecutionContext.Implicits.global.
+C:\Users\Dito\Desktop\taller2 arquitectura\migrana\app\controllers\Application.scala:42: Cannot find an implicit ExecutionContext. You might pass
+an (implicit ec: ExecutionContext) parameter to your method
+or import scala.concurrent.ExecutionContext.Implicits.global.
+Read from stdout: migranaServices.getEpisodios(id) map { episodio =>
+    migranaServices.getEpisodios(id) map { episodio =>
+Read from stdout: ^
+                                     ^
+Read from stdout: C:\Users\Dito\Desktop\taller2 arquitectura\migrana\app\controllers\Application.scala:48: Cannot find an implicit ExecutionContext. You might pass
+Read from stdout: an (implicit ec: ExecutionContext) parameter to your method
+Read from stdout: or import scala.concurrent.ExecutionContext.Implicits.global.
+C:\Users\Dito\Desktop\taller2 arquitectura\migrana\app\controllers\Application.scala:48: Cannot find an implicit ExecutionContext. You might pass
+an (implicit ec: ExecutionContext) parameter to your method
+or import scala.concurrent.ExecutionContext.Implicits.global.
+Read from stdout: migranaServices.getEpisodiosPorPaciente(TipoDocumento,NumeroDocumento) map { episodiosPorPaciente =>
+    migranaServices.getEpisodiosPorPaciente(TipoDocumento,NumeroDocumento) map { episodiosPorPaciente =>
+Read from stdout: ^
+                                                                           ^
+Read from stdout: C:\Users\Dito\Desktop\taller2 arquitectura\migrana\app\controllers\Application.scala:54: Cannot find an implicit ExecutionContext. You might pass
+Read from stdout: an (implicit ec: ExecutionContext) parameter to your method
+Read from stdout: or import scala.concurrent.ExecutionContext.Implicits.global.
+C:\Users\Dito\Desktop\taller2 arquitectura\migrana\app\controllers\Application.scala:54: Cannot find an implicit ExecutionContext. You might pass
+an (implicit ec: ExecutionContext) parameter to your method
+or import scala.concurrent.ExecutionContext.Implicits.global.
+Read from stdout: migranaServices.getPacientes(TipoDocumento,NumeroDocumento ) map { pacientes =>
+    migranaServices.getPacientes(TipoDocumento,NumeroDocumento ) map { pacientes =>
+Read from stdout: ^
+                                                                 ^
+Read from stdout: C:\Users\Dito\Desktop\taller2 arquitectura\migrana\app\controllers\Application.scala:63: Cannot find an implicit ExecutionContext. You might pass
+Read from stdout: an (implicit ec: ExecutionContext) parameter to your method
+Read from stdout: or import scala.concurrent.ExecutionContext.Implicits.global.
+C:\Users\Dito\Desktop\taller2 arquitectura\migrana\app\controllers\Application.scala:63: Cannot find an implicit ExecutionContext. You might pass
+an (implicit ec: ExecutionContext) parameter to your method
+or import scala.concurrent.ExecutionContext.Implicits.global.
+Read from stdout: Repository.addEpisodio(episodio).map(resultado => {
+          Repository.addEpisodio(episodio).map(resultado => {
+Read from stdout: ^
+                                              ^
+Read from stdout: C:\Users\Dito\Desktop\taller2 arquitectura\migrana\app\controllers\Application.scala:80: Cannot find an implicit ExecutionContext. You might pass
+Read from stdout: an (implicit ec: ExecutionContext) parameter to your method
+Read from stdout: or import scala.concurrent.ExecutionContext.Implicits.global.
+C:\Users\Dito\Desktop\taller2 arquitectura\migrana\app\controllers\Application.scala:80: Cannot find an implicit ExecutionContext. You might pass
+an (implicit ec: ExecutionContext) parameter to your method
+or import scala.concurrent.ExecutionContext.Implicits.global.
+Read from stdout: migranaServices.addListEpisodios(listEpisodios).map(resultado => println(resultado))
+          migranaServices.addListEpisodios(listEpisodios).map(resultado => println(resultado))
+Read from stdout: ^
+                                                             ^
+Read from stdout: 9 errors found
+9 errors found
 Compilation failed (CompilerInterface)
-Total time: 2 s, completed 06-jul-2016 19:19:23
+Total time: 2 s, completed 06-jul-2016 19:36:53
+> server-post-command-cleanup
+> server-handle-next-server-request
+> {file:/C:/Users/Dito/Desktop/taller2%20arquitectura/migrana/}root/*:playForkReload
+Evaluating tasks: *:playForkReload
+Running task... Cancel: sbt.server.ServerTaskCancellation@6e75f37f, check cycles: false
+
+Initial source changes: 
+	removed:Set()
+	added: Set()
+	modified: Set(C:\Users\Dito\Desktop\taller2 arquitectura\migrana\app\controllers\Application.scala, C:\Users\Dito\Desktop\taller2 arquitectura\migrana\target\scala-2.11\routes\main\router\RoutesPrefix.scala, C:\Users\Dito\Desktop\taller2 arquitectura\migrana\target\scala-2.11\routes\main\controllers\ReverseRoutes.scala, C:\Users\Dito\Desktop\taller2 arquitectura\migrana\target\scala-2.11\routes\main\controllers\routes.java, C:\Users\Dito\Desktop\taller2 arquitectura\migrana\target\scala-2.11\routes\main\router\Routes.scala, C:\Users\Dito\Desktop\taller2 arquitectura\migrana\target\scala-2.11\routes\main\controllers\javascript\JavaScriptReverseRoutes.scala)
+Removed products: Set()
+External API changes: API Changes: Set()
+Modified binary dependencies: Set()
+Initial directly invalidated sources: Set(C:\Users\Dito\Desktop\taller2 arquitectura\migrana\app\controllers\Application.scala, C:\Users\Dito\Desktop\taller2 arquitectura\migrana\target\scala-2.11\routes\main\router\RoutesPrefix.scala, C:\Users\Dito\Desktop\taller2 arquitectura\migrana\target\scala-2.11\routes\main\controllers\ReverseRoutes.scala, C:\Users\Dito\Desktop\taller2 arquitectura\migrana\target\scala-2.11\routes\main\controllers\routes.java, C:\Users\Dito\Desktop\taller2 arquitectura\migrana\target\scala-2.11\routes\main\router\Routes.scala, C:\Users\Dito\Desktop\taller2 arquitectura\migrana\target\scala-2.11\routes\main\controllers\javascript\JavaScriptReverseRoutes.scala)
+
+Sources indirectly invalidated by:
+	product: Set()
+	binary dep: Set()
+	external source: Set()
+All initially invalidated sources: Set(C:\Users\Dito\Desktop\taller2 arquitectura\migrana\app\controllers\Application.scala, C:\Users\Dito\Desktop\taller2 arquitectura\migrana\target\scala-2.11\routes\main\router\RoutesPrefix.scala, C:\Users\Dito\Desktop\taller2 arquitectura\migrana\target\scala-2.11\routes\main\controllers\ReverseRoutes.scala, C:\Users\Dito\Desktop\taller2 arquitectura\migrana\target\scala-2.11\routes\main\controllers\routes.java, C:\Users\Dito\Desktop\taller2 arquitectura\migrana\target\scala-2.11\routes\main\router\Routes.scala, C:\Users\Dito\Desktop\taller2 arquitectura\migrana\target\scala-2.11\routes\main\controllers\javascript\JavaScriptReverseRoutes.scala)
+
+Read from stdout: Compiling 5 Scala sources and 1 Java source to C:\Users\Dito\Desktop\taller2 arquitectura\migrana\target\scala-2.11\classes...
+Compiling 5 Scala sources and 1 Java source to C:\Users\Dito\Desktop\taller2 arquitectura\migrana\target\scala-2.11\classes...
+Getting compiler-interface from component compiler for Scala 2.11.8
+Other repositories:
+Default repositories:
+Getting compiler-interface from component compiler for Scala 2.11.8
+Other repositories:
+Default repositories:
+Running cached compiler 3352e173, interfacing (CompilerInterface) with Scala compiler version 2.11.8
+Calling Scala compiler with arguments  (CompilerInterface):
+	-deprecation
+	-unchecked
+	-encoding
+	utf8
+	-bootclasspath
+	C:\Program Files\Java\jdk1.8.0_65\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_65\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_65\jre\classes;C:\Users\Dito\.ivy2\cache\org.scala-lang\scala-library\jars\scala-library-2.11.8.jar
+	-classpath
+	C:\Users\Dito\Desktop\taller2 arquitectura\migrana\target\scala-2.11\classes;C:\Users\Dito\Downloads\typesafe-activator-1.3.10\activator-dist-1.3.10\repository\com.typesafe.play\twirl-api_2.11\1.1.1\jars\twirl-api_2.11.jar;C:\Users\Dito\Downloads\typesafe-activator-1.3.10\activator-dist-1.3.10\repository\org.apache.commons\commons-lang3\3.4\jars\commons-lang3.jar;C:\Users\Dito\.ivy2\cache\org.scala-lang.modules\scala-xml_2.11\bundles\scala-xml_2.11-1.0.1.jar;C:\Users\Dito\.ivy2\cache\com.typesafe.play\play-server_2.11\jars\play-server_2.11-2.5.4.jar;C:\Users\Dito\.ivy2\cache\com.typesafe.play\play_2.11\jars\play_2.11-2.5.4.jar;C:\Users\Dito\.ivy2\cache\com.typesafe.play\build-link\jars\build-link-2.5.4.jar;C:\Users\Dito\.ivy2\cache\com.typesafe.play\play-exceptions\jars\play-exceptions-2.5.4.jar;C:\Users\Dito\.ivy2\cache\com.typesafe.play\play-iteratees_2.11\jars\play-iteratees_2.11-2.5.4.jar;C:\Users\Dito\.ivy2\cache\org.scala-stm\scala-stm_2.11\jars\scala-stm_2.11-0.7.jar;C:\Users\Dito\Downloads\typesafe-activator-1.3.10\activator-dist-1.3.10\repository\com.typesafe\config\1.3.0\bundles\config.jar;C:\Users\Dito\.ivy2\cache\ch.qos.logback\logback-classic\jars\logback-classic-1.1.7.jar;C:\Users\Dito\.ivy2\cache\ch.qos.logback\logback-core\jars\logback-core-1.1.7.jar;C:\Users\Dito\.ivy2\cache\org.slf4j\slf4j-api\jars\slf4j-api-1.7.19.jar;C:\Users\Dito\.ivy2\cache\com.typesafe.play\play-json_2.11\jars\play-json_2.11-2.5.4.jar;C:\Users\Dito\.ivy2\cache\com.typesafe.play\play-functional_2.11\jars\play-functional_2.11-2.5.4.jar;C:\Users\Dito\.ivy2\cache\com.typesafe.play\play-datacommons_2.11\jars\play-datacommons_2.11-2.5.4.jar;C:\Users\Dito\Downloads\typesafe-activator-1.3.10\activator-dist-1.3.10\repository\joda-time\joda-time\2.9.2\jars\joda-time.jar;C:\Users\Dito\Downloads\typesafe-activator-1.3.10\activator-dist-1.3.10\repository\org.joda\joda-convert\1.8.1\jars\joda-convert.jar;C:\Users\Dito\Downloads\typesafe-activator-1.3.10\activator-dist-1.3.10\repository\org.scala-lang\scala-reflect\2.11.7\jars\scala-reflect.jar;C:\Users\Dito\Downloads\typesafe-activator-1.3.10\activator-dist-1.3.10\repository\com.fasterxml.jackson.core\jackson-core\2.7.1\bundles\jackson-core.jar;C:\Users\Dito\Downloads\typesafe-activator-1.3.10\activator-dist-1.3.10\repository\com.fasterxml.jackson.core\jackson-annotations\2.7.1\bundles\jackson-annotations.jar;C:\Users\Dito\Downloads\typesafe-activator-1.3.10\activator-dist-1.3.10\repository\com.fasterxml.jackson.core\jackson-databind\2.7.1\bundles\jackson-databind.jar;C:\Users\Dito\Downloads\typesafe-activator-1.3.10\activator-dist-1.3.10\repository\com.fasterxml.jackson.datatype\jackson-datatype-jdk8\2.7.1\bundles\jackson-datatype-jdk8.jar;C:\Users\Dito\Downloads\typesafe-activator-1.3.10\activator-dist-1.3.10\repository\com.fasterxml.jackson.datatype\jackson-datatype-jsr310\2.7.1\bundles\jackson-datatype-jsr310.jar;C:\Users\Dito\.ivy2\cache\com.typesafe.play\play-netty-utils\jars\play-netty-utils-2.5.4.jar;C:\Users\Dito\.ivy2\cache\org.slf4j\jul-to-slf4j\jars\jul-to-slf4j-1.7.19.jar;C:\Users\Dito\.ivy2\cache\org.slf4j\jcl-over-slf4j\jars\jcl-over-slf4j-1.7.19.jar;C:\Users\Dito\.ivy2\cache\com.typesafe.play\play-streams_2.11\jars\play-streams_2.11-2.5.4.jar;C:\Users\Dito\Downloads\typesafe-activator-1.3.10\activator-dist-1.3.10\repository\org.reactivestreams\reactive-streams\1.0.0\jars\reactive-streams.jar;C:\Users\Dito\.ivy2\cache\com.typesafe.akka\akka-stream_2.11\jars\akka-stream_2.11-2.4.4.jar;C:\Users\Dito\.ivy2\cache\com.typesafe.akka\akka-actor_2.11\jars\akka-actor_2.11-2.4.4.jar;C:\Users\Dito\Downloads\typesafe-activator-1.3.10\activator-dist-1.3.10\repository\org.scala-lang.modules\scala-java8-compat_2.11\0.7.0\bundles\scala-java8-compat_2.11.jar;C:\Users\Dito\.ivy2\cache\com.typesafe\ssl-config-akka_2.11\bundles\ssl-config-akka_2.11-0.2.1.jar;C:\Users\Dito\.ivy2\cache\com.typesafe\ssl-config-core_2.11\bundles\ssl-config-core_2.11-0.2.1.jar;C:\Users\Dito\.ivy2\cache\org.scala-lang.modules\scala-parser-combinators_2.11\bundles\scala-parser-combinators_2.11-1.0.4.jar;C:\Users\Dito\.ivy2\cache\com.typesafe.akka\akka-slf4j_2.11\jars\akka-slf4j_2.11-2.4.4.jar;C:\Users\Dito\Downloads\typesafe-activator-1.3.10\activator-dist-1.3.10\repository\commons-codec\commons-codec\1.10\jars\commons-codec.jar;C:\Users\Dito\.ivy2\cache\xerces\xercesImpl\jars\xercesImpl-2.11.0.jar;C:\Users\Dito\.ivy2\cache\xml-apis\xml-apis\jars\xml-apis-1.4.01.jar;C:\Users\Dito\.ivy2\cache\javax.transaction\jta\jars\jta-1.1.jar;C:\Users\Dito\Downloads\typesafe-activator-1.3.10\activator-dist-1.3.10\repository\com.google.inject\guice\4.0\jars\guice.jar;C:\Users\Dito\Downloads\typesafe-activator-1.3.10\activator-dist-1.3.10\repository\javax.inject\javax.inject\1\jars\javax.inject.jar;C:\Users\Dito\Downloads\typesafe-activator-1.3.10\activator-dist-1.3.10\repository\aopalliance\aopalliance\1.0\jars\aopalliance.jar;C:\Users\Dito\.ivy2\cache\com.google.guava\guava\bundles\guava-16.0.1.jar;C:\Users\Dito\Downloads\typesafe-activator-1.3.10\activator-dist-1.3.10\repository\com.google.inject.extensions\guice-assistedinject\4.0\jars\guice-assistedinject.jar;C:\Users\Dito\.ivy2\cache\com.typesafe.play\play-netty-server_2.11\jars\play-netty-server_2.11-2.5.4.jar;C:\Users\Dito\.ivy2\cache\com.typesafe.netty\netty-reactive-streams-http\jars\netty-reactive-streams-http-1.0.6.jar;C:\Users\Dito\.ivy2\cache\com.typesafe.netty\netty-reactive-streams\jars\netty-reactive-streams-1.0.6.jar;C:\Users\Dito\Downloads\typesafe-activator-1.3.10\activator-dist-1.3.10\repository\io.netty\netty-handler\4.0.36.Final\jars\netty-handler.jar;C:\Users\Dito\Downloads\typesafe-activator-1.3.10\activator-dist-1.3.10\repository\io.netty\netty-buffer\4.0.36.Final\jars\netty-buffer.jar;C:\Users\Dito\Downloads\typesafe-activator-1.3.10\activator-dist-1.3.10\repository\io.netty\netty-common\4.0.36.Final\jars\netty-common.jar;C:\Users\Dito\Downloads\typesafe-activator-1.3.10\activator-dist-1.3.10\repository\io.netty\netty-transport\4.0.36.Final\jars\netty-transport.jar;C:\Users\Dito\Downloads\typesafe-activator-1.3.10\activator-dist-1.3.10\repository\io.netty\netty-codec\4.0.36.Final\jars\netty-codec.jar;C:\Users\Dito\Downloads\typesafe-activator-1.3.10\activator-dist-1.3.10\repository\io.netty\netty-codec-http\4.0.36.Final\jars\netty-codec-http.jar;C:\Users\Dito\Downloads\typesafe-activator-1.3.10\activator-dist-1.3.10\repository\io.netty\netty-transport-native-epoll\4.0.36.Final\jars\netty-transport-native-epoll-linux-x86_64.jar;C:\Users\Dito\.ivy2\cache\com.typesafe.play\play-logback_2.11\jars\play-logback_2.11-2.5.4.jar;C:\Users\Dito\.ivy2\cache\mysql\mysql-connector-java\jars\mysql-connector-java-5.1.34.jar;C:\Users\Dito\.ivy2\cache\com.typesafe.play\play-slick_2.11\jars\play-slick_2.11-1.1.0.jar;C:\Users\Dito\.ivy2\cache\com.typesafe.slick\slick_2.11\bundles\slick_2.11-3.1.0.jar;C:\Users\Dito\.ivy2\cache\com.typesafe.slick\slick-hikaricp_2.11\bundles\slick-hikaricp_2.11-3.1.0.jar;C:\Users\Dito\.ivy2\cache\com.zaxxer\HikariCP-java6\bundles\HikariCP-java6-2.3.7.jar;C:\Users\Dito\Downloads\typesafe-activator-1.3.10\activator-dist-1.3.10\repository\org.javassist\javassist\3.19.0-GA\bundles\javassist.jar;C:\Users\Dito\.ivy2\cache\com.typesafe.play\play-jdbc-api_2.11\jars\play-jdbc-api_2.11-2.4.0.jar;C:\Users\Dito\.ivy2\cache\com.typesafe.play\play-slick-evolutions_2.11\jars\play-slick-evolutions_2.11-1.1.0.jar;C:\Users\Dito\.ivy2\cache\com.typesafe.play\play-jdbc-evolutions_2.11\jars\play-jdbc-evolutions_2.11-2.4.0.jar;C:\Users\Dito\.ivy2\cache\org.webjars\webjars-play_2.11\jars\webjars-play_2.11-2.5.0.jar;C:\Users\Dito\.ivy2\cache\org.webjars\requirejs\jars\requirejs-2.1.20.jar;C:\Users\Dito\.ivy2\cache\org.webjars\webjars-locator\jars\webjars-locator-0.30.jar;C:\Users\Dito\.ivy2\cache\org.webjars\webjars-locator-core\jars\webjars-locator-core-0.30.jar;C:\Users\Dito\Downloads\typesafe-activator-1.3.10\activator-dist-1.3.10\repository\org.apache.commons\commons-compress\1.9\jars\commons-compress.jar;C:\Users\Dito\.ivy2\cache\org.webjars\jquery\jars\jquery-1.11.3.jar;C:\Users\Dito\.ivy2\cache\org.webjars\bootstrap\jars\bootstrap-3.3.6.jar;C:\Users\Dito\.ivy2\cache\org.webjars\angularjs\jars\angularjs-1.5.5.jar;C:\Users\Dito\.ivy2\cache\org.webjars\angular-ui-bootstrap\jars\angular-ui-bootstrap-1.3.2.jar;C:\Users\Dito\.ivy2\cache\com.nimbusds\nimbus-jose-jwt\jars\nimbus-jose-jwt-3.1.jar;C:\Users\Dito\.ivy2\cache\net.jcip\jcip-annotations\jars\jcip-annotations-1.0.jar;C:\Users\Dito\.ivy2\cache\net.minidev\json-smart\jars\json-smart-1.1.1.jar;C:\Users\Dito\Downloads\typesafe-activator-1.3.10\activator-dist-1.3.10\repository\org.bouncycastle\bcprov-jdk15on\1.51\jars\bcprov-jdk15on.jar
+Read from stdout: C:\Users\Dito\Desktop\taller2 arquitectura\migrana\app\controllers\Application.scala:42: Cannot find an implicit ExecutionContext. You might pass
+Read from stdout: an (implicit ec: ExecutionContext) parameter to your method
+Read from stdout: or import scala.concurrent.ExecutionContext.Implicits.global.
+C:\Users\Dito\Desktop\taller2 arquitectura\migrana\app\controllers\Application.scala:42: Cannot find an implicit ExecutionContext. You might pass
+an (implicit ec: ExecutionContext) parameter to your method
+or import scala.concurrent.ExecutionContext.Implicits.global.
+Read from stdout: migranaServices.getEpisodios(id) map { episodio =>
+    migranaServices.getEpisodios(id) map { episodio =>
+Read from stdout: ^
+                                     ^
+Read from stdout: C:\Users\Dito\Desktop\taller2 arquitectura\migrana\app\controllers\Application.scala:48: Cannot find an implicit ExecutionContext. You might pass
+Read from stdout: an (implicit ec: ExecutionContext) parameter to your method
+Read from stdout: or import scala.concurrent.ExecutionContext.Implicits.global.
+C:\Users\Dito\Desktop\taller2 arquitectura\migrana\app\controllers\Application.scala:48: Cannot find an implicit ExecutionContext. You might pass
+an (implicit ec: ExecutionContext) parameter to your method
+or import scala.concurrent.ExecutionContext.Implicits.global.
+Read from stdout: migranaServices.getEpisodiosPorPaciente(TipoDocumento,NumeroDocumento) map { episodiosPorPaciente =>
+    migranaServices.getEpisodiosPorPaciente(TipoDocumento,NumeroDocumento) map { episodiosPorPaciente =>
+Read from stdout: ^
+                                                                           ^
+Read from stdout: C:\Users\Dito\Desktop\taller2 arquitectura\migrana\app\controllers\Application.scala:54: Cannot find an implicit ExecutionContext. You might pass
+Read from stdout: an (implicit ec: ExecutionContext) parameter to your method
+Read from stdout: or import scala.concurrent.ExecutionContext.Implicits.global.
+C:\Users\Dito\Desktop\taller2 arquitectura\migrana\app\controllers\Application.scala:54: Cannot find an implicit ExecutionContext. You might pass
+an (implicit ec: ExecutionContext) parameter to your method
+or import scala.concurrent.ExecutionContext.Implicits.global.
+Read from stdout: migranaServices.getPacientes(TipoDocumento,NumeroDocumento ) map { pacientes =>
+    migranaServices.getPacientes(TipoDocumento,NumeroDocumento ) map { pacientes =>
+Read from stdout: ^
+                                                                 ^
+Read from stdout: C:\Users\Dito\Desktop\taller2 arquitectura\migrana\app\controllers\Application.scala:63: Cannot find an implicit ExecutionContext. You might pass
+Read from stdout: an (implicit ec: ExecutionContext) parameter to your method
+Read from stdout: or import scala.concurrent.ExecutionContext.Implicits.global.
+C:\Users\Dito\Desktop\taller2 arquitectura\migrana\app\controllers\Application.scala:63: Cannot find an implicit ExecutionContext. You might pass
+an (implicit ec: ExecutionContext) parameter to your method
+or import scala.concurrent.ExecutionContext.Implicits.global.
+Read from stdout: Repository.addEpisodio(episodio).map(resultado => {
+          Repository.addEpisodio(episodio).map(resultado => {
+Read from stdout: ^
+                                              ^
+Read from stdout: C:\Users\Dito\Desktop\taller2 arquitectura\migrana\app\controllers\Application.scala:80: Cannot find an implicit ExecutionContext. You might pass
+Read from stdout: an (implicit ec: ExecutionContext) parameter to your method
+Read from stdout: or import scala.concurrent.ExecutionContext.Implicits.global.
+C:\Users\Dito\Desktop\taller2 arquitectura\migrana\app\controllers\Application.scala:80: Cannot find an implicit ExecutionContext. You might pass
+an (implicit ec: ExecutionContext) parameter to your method
+or import scala.concurrent.ExecutionContext.Implicits.global.
+Read from stdout: migranaServices.addListEpisodios(listEpisodios).map(resultado => println(resultado))
+          migranaServices.addListEpisodios(listEpisodios).map(resultado => println(resultado))
+Read from stdout: ^
+                                                             ^
+Read from stdout: 5 errors found
+5 errors found
+Compilation failed (CompilerInterface)
+Total time: 1 s, completed 06-jul-2016 19:37:28
 > server-post-command-cleanup
 > server-handle-next-server-request
 Done executing sbt server engine, result Right(Exit(0))
@@ -4026,4 +4066,4 @@ Waiting for socket thread
 Waiting for request processor thread
 Waiting for command engine result
 Returning control to sbt launcher with result Exit(0)
-Closing the 5928@Dito-PC logs at Wed Jul 06 19:21:51 COT 2016, goodbye.
+Closing the 2004@Dito-PC logs at Wed Jul 06 19:37:33 COT 2016, goodbye.
