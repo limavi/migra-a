@@ -1,13 +1,9 @@
 package controllers
 
-
-import models.Employee
 import org.specs2.mock.Mockito
 import play.api.libs.json.Json
 import play.api.mvc._
 import play.api.test._
-import repo.EmployeeRepository
-import utils.JsonFormat._
 
 import scala.concurrent.Future
 

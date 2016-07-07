@@ -21,7 +21,6 @@ class Application @Inject()(webJarAssets: WebJarAssets) extends Controller {
           case Some(token)=> Future.successful(Accepted(token))
           case None=> Future.successful( BadRequest( "Error en el request enviado a autenticar:  " + request.body.toString()) )
         }
-
       case err @ JsError( _ ) =>
         Future.successful( BadRequest( "Error en el request enviado a autenticar:  " + request.body.toString()) )
     }
@@ -30,6 +29,5 @@ class Application @Inject()(webJarAssets: WebJarAssets) extends Controller {
   def index = Action {Ok(html.index(webJarAssets))}
 
   def login = Action {Ok(html.login(webJarAssets))}
-
 
 }
