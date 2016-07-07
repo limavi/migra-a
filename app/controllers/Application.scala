@@ -41,21 +41,24 @@ class Application @Inject()(webJarAssets: WebJarAssets) extends Controller {
   def login = Action {Ok(html.login(webJarAssets))}
 
   def consultarEpisodios(id: Option[ Long ]) = Action.async { implicit request =>
-    migranaServices.getEpisodios(id) map { episodio =>
+    val res =migranaServices.getEpisodios(id) map { episodio =>
       Ok( Json.toJson( episodio ) )
     }
+    res.map( _.withHeaders( ( ACCESS_CONTROL_ALLOW_ORIGIN, "*" ), ( CONTENT_TYPE, "application/hal+json" ) ) )
   }
 
   def consultarEpisodiosPorPaciente(TipoDocumento: String, NumeroDocumento: Long)= Action.async { implicit request =>
-    migranaServices.getEpisodiosPorPaciente(TipoDocumento,NumeroDocumento) map { episodiosPorPaciente =>
+    val res =migranaServices.getEpisodiosPorPaciente(TipoDocumento,NumeroDocumento) map { episodiosPorPaciente =>
       Ok( Json.toJson( episodiosPorPaciente ) )
     }
+    res.map( _.withHeaders( ( ACCESS_CONTROL_ALLOW_ORIGIN, "*" ), ( CONTENT_TYPE, "application/hal+json" ) ) )
   }
 
   def consultarPacientes(TipoDocumento:Option[ String ],  NumeroDocumento: Option[Long ]): Action[AnyContent] = Action.async { implicit request =>
-    migranaServices.getPacientes(TipoDocumento,NumeroDocumento ) map { pacientes =>
+    val res =migranaServices.getPacientes(TipoDocumento,NumeroDocumento ) map { pacientes =>
       Ok( Json.toJson( pacientes ) )
     }
+    res.map( _.withHeaders( ( ACCESS_CONTROL_ALLOW_ORIGIN, "*" ), ( CONTENT_TYPE, "application/hal+json" ) ) )
   }
 
   def agregarEpisodio= Action.async { implicit request =>
